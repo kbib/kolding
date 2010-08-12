@@ -1,0 +1,6 @@
+Theme for the Kolding public libraries
+======================================
+
+This is a subtheme of [Dynamo](http://github.com/dingproject/dynamo)
+for the Ding! project.
+
