@@ -1,44 +1,57 @@
 body {
-	background: #ffffff url(images/bg-pattern.png) center top repeat;
+	
 }
 body.logged-in {
 
 }
 #container {
-	background: url(images/page-border-1.png) repeat-y center top;
+	/*background: url(images/page-border-1.png) repeat-y center top;*/
+ background: #f4f4f4 url(images/topribbon.png) repeat-x center top;
 /*	margin-top: 2px; */
 }
 #pageheader {
 	background: transparent;
 }
-#site-name {
-	height: auto;
-	margin: 3px 17px 0 715px;
-	padding:0 0 0px;
-	text-indent:-9999em;
+#site-name { /* Kolding logo */
+  position:absolute;
+  left:-18px;
+  top:0;
+  padding:0;
+  background: url(images/logo.png) no-repeat left;
+  height:108px;
+  width:400px;
+  margin:0;
+  z-index:50;
 }
-#site-name a {
-	background: url(images/homepage.png) no-repeat 0 0;
-	height:49px;
-	width:256px;
+#site-name a { /* Kolding title */ 
+	background: url(images/logotitle.png) no-repeat 0 0;
+  position:absolute;
+  left:120px;
+  top:44px;
+	height:14px;
+	width:222px;
 }
 #account h3 {
 	position: absolute;
 	left: -9999em;
 }
 #ting-search-form {
-	background: url(images/search.png) no-repeat 0 15px;
+	background: transparent none; /* url(images/search.png) no-repeat 0 15px; */
+ padding:15px 0 0 100px;
 }
 #ting-search-form div.example, #ting-search-form div.example li a, #ting-search-form div.example p {
 	color:#efefef;
 }
 #user-login-form {
-	background: transparent url(images/logind.png) no-repeat scroll 0 0;
+	background: transparent none; /*url(images/logind.png) no-repeat scroll 0 0;*/
+  margin:0;
+  padding:0;
 }
 .jcarousel-skin-biblo {
 	background: transparent url(images/bg-carousel.png) repeat-x scroll center top;
 }
 #pagebody {
+  margin-top:37px;
 	background: transparent;
 }
 #pagebody-inner {
@@ -65,7 +78,7 @@ div.notice.soon {
 #user-login-form .form-item-textfield { margin-bottom: 3px;} 
 
 #page {
-	background: url(images/pagetop-bg.png) no-repeat center top;
+	background: url(images/rings.png) no-repeat center top;
 	overflow: hidden;
 	width: auto;
 	margin: 0;
@@ -75,19 +88,39 @@ div.notice.soon {
 #page-inner{
 	width:994px;
 	margin: 0 auto;
+  position:relative;
 }
 
 #page-inner{
-	overflow:hidden;
+	/* overflow:hidden;  why? */
 }
+#pageheader-inner{
+  position:relative;
+  margin: 0 16px;
+}
+
 #search {
-	margin-top: 0;
+  /*position:absolute;*/
+  left:0;
+  /*top:64px;*/
+  background: #ebebeb;
+  width:700px;
+  height:70px;
+	margin:0;
 }
 #account {
-	margin-top: 5px;
+	/*position:absolute;*/
+  /*right:0;*/
+  top:64px;
+  /*margin:0;*/
+ margin-left:20px;
+ width:224px;
+ height:auto;
+  
 }
 #top {
-	height:132px;
+	height:145px;
+  /*padding-top:64px;*/
 }
 #pageheader {
 	margin: 0;
@@ -100,14 +133,14 @@ div.notice.soon {
 	height: 20px;
 	margin: 0;
 	padding: 0px 0 0 25px;
-	width: 467px;
+	width: 278px;
 	background: transparent;
 }
 #edit-keys-wrapper {
 	float: left;
 	margin-bottom: 0;
 	margin-top: 13px;
-	width: 492px;
+	width: 278px;
 	background: url(images/search-back.png) no-repeat;
 	padding-top: 2px;
 	padding-left: 2px;
@@ -127,12 +160,25 @@ div.notice.soon {
 .ting-search-carousel .search-controller li {
 	margin-top: -2px;
 }
+#navigation {
+  height:40px;
+}
+#navigation-inner{
+  margin-top:3px;
+  margin-left:-20px;
+}
+#navigation li{
+  height:36px;
+  padding:0;
+}
 #navigation li.active-trail {
-	background:url(../dynamo/images/menu-left.png) no-repeat left top; 
+	background:url(images/menuactarrow.png) no-repeat center bottom; 
+}
+#navigation a{
+  color:#fff;
+  border:0 none;
 }
 #navigation li.active-trail a{
-	color:#eee; 
-	background: url(../dynamo/images/menu-right.png) no-repeat right top;
 }
 
 #testsite {

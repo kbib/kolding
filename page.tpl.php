@@ -42,17 +42,23 @@
       <div id="page-inner" class="clearfix">
 
 
-        <<?php print $site_name_element; ?> id="site-name">
+        
+
+        <div id="pageheader">
+          
+          <div id="pageheader-inner">
+          
+          <<?php print $site_name_element; ?> id="site-name">
           <a href="<?php print $base_path; ?>" title="<?php print t('Home'); ?>" rel="home">
             <?php print $site_name; ?>
           </a>
         </<?php print $site_name_element; ?>>
-
-        <div id="pageheader">
-          <div id="testsite">&nbsp;</div>
-          <div id="pageheader-inner">
             
             <div id="top" class="clearfix">
+
+                <?php if ($secondary_links){ ?>
+                  <?php print theme('links', $secondary_links); ?> <?php print $rsslink ?>
+                <?php } ?>
 
               <div id="search" class="left">
                 <?php print $search ?>
