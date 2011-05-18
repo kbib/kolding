@@ -7,3 +7,8 @@ function kolding_ting_search_form($form){
 
 	return drupal_render($form);	
 }
+
+function kolding_preprocess(&$variables){
+
+$variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>',array('html' => true, 'attributes' => array('class' => 'rsslink	')));
+}

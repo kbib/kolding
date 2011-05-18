@@ -53,12 +53,16 @@
             <?php print $site_name; ?>
           </a>
         </<?php print $site_name_element; ?>>
+
+              <div class="menuwrapper clear-block">
+                <?php if ($secondary_links){ ?>
+                  <?php print theme('links', $secondary_links,array('class' => 'servicemenu')); ?> <?php print $rsslink ?>
+                <?php } ?>
+              </div>
             
             <div id="top" class="clearfix">
 
-                <?php if ($secondary_links){ ?>
-                  <?php print theme('links', $secondary_links); ?> <?php print $rsslink ?>
-                <?php } ?>
+
 
               <div id="search" class="left">
                 <?php print $search ?>

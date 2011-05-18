@@ -107,6 +107,7 @@ div.notice.soon {
   width:700px;
   height:70px;
 	margin:0;
+  margin-top:20px;
 }
 #account {
 	/*position:absolute;*/
@@ -119,8 +120,29 @@ div.notice.soon {
   
 }
 #top {
-	height:145px;
+	height:101px;
+  padding-top:20px;
   /*padding-top:64px;*/
+}
+.menuwrapper .servicemenu { /* top right service menu */
+  float:right;
+  margin-right:50px;
+  height:24px;
+  font-family:verdana;
+  font-size:11px;
+}
+.menuwrapper .servicemenu li {
+  float:left;
+  margin-left:15px;
+  margin-top:7px;
+}
+.menuwrapper .servicemenu li a{
+  color:#003399;
+}
+.menuwrapper .rsslink{
+  position:absolute;
+  right:0;
+  top:9px;
 }
 #pageheader {
 	margin: 0;
