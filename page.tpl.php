@@ -150,8 +150,10 @@
       
           </div>
         </div>
+        <div id="flapContainer">
         <div id="flap">
           <?php print $flap; ?>
+        </div>
         </div>
 
       </div>

@@ -1,5 +1,6 @@
 body {
-	
+	font-family:verdana;
+  font-size:11px;
 }
 body.logged-in {
 
@@ -257,3 +258,40 @@ body.no-sidebars #content {
   margin-left:255px;
   width:675px;
 }
+
+#flapContainer{
+  position:absolute;
+  width:0;
+  right:0px;
+  top:200px;
+}
+
+#flap{
+  /*position:fixed;
+  top:200px;*/
+  width:225px;
+}
+#flap #block-block-1{
+  background: #eb8b03 url(images/flap-box-gradient.png) repeat-x top left;
+  padding:10px;
+  border-radius:5px;
+  margin-bottom:20px;
+  color:#fff;
+}
+#flap #block-block-1 h3{
+  color:#fff;
+}
+
+#flap #block-views-library-list-block-1{
+  background:#fff;
+  padding:10px;
+  border-radius:5px;
+}
+#flap .view-library-list li{
+  margin-bottom:20px;
+  color:#000;
+}
+#flap .view-library-list .title a{
+  font-weight:bold;
+  color:#000;
+} 
