@@ -47,6 +47,17 @@ body.logged-in {
   margin:0;
   padding:0;
 }
+#user-login-form .form-image-button {
+  height:22px;
+  width:52px;
+}
+#user-login-form #edit-name-wrapper input,
+#user-login-form #edit-pass-wrapper input{
+  padding: 3px 0 3px 3px;
+}
+#user-login-form label {
+  margin: 3px 0 0 5px;
+}
 .jcarousel-skin-biblo {
 	background: transparent url(images/bg-carousel.png) repeat-x scroll center top;
 }
@@ -96,7 +107,7 @@ div.notice.soon {
 }
 #pageheader-inner{
   position:relative;
-  margin: 0 16px;
+  margin: 0 36px;
 }
 
 #search {
@@ -104,7 +115,7 @@ div.notice.soon {
   left:0;
   /*top:64px;*/
   background: #ebebeb;
-  width:700px;
+  width:678px;
   height:70px;
 	margin:0;
   margin-top:20px;
@@ -118,6 +129,23 @@ div.notice.soon {
  width:224px;
  height:auto;
   
+}
+#user-login-form input.form-text{
+  background-color:#ddd;
+  border:0 none;
+  padding: 4px 0 1px 5px;
+}
+#user-login-form label{
+  color:#666666;
+  font-weight:normal;
+}
+#account h3{
+  text-indent:inherit;
+  top:-20px;
+  left:0;
+  font-family:verdana;
+  font-size:11px;
+  font-weight:bold;
 }
 #top {
 	height:101px;
@@ -211,4 +239,21 @@ div.notice.soon {
 	left: 50%;
 	margin-left: -78px;
 	top: -54px;
+}
+
+.panel-threecol-33-34-33-stacked .panel-left {
+  width:450px;
+}
+body.no-sidebars #content {
+  width:940px;
+}
+.ting-search-carousel {
+  width:941px;
+}
+.ting-search-carousel .search-controller {
+  width:939px;
+}
+.jcarousel-skin-ting-search-carousel {
+  margin-left:255px;
+  width:675px;
 }
