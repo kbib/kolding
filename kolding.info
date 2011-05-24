@@ -17,6 +17,7 @@ regions[footer_one]     = footer one
 regions[footer_two]     = footer two
 regions[footer_three]   = footer three
 regions[footer_four]    = footer four
+regions[flap]           = Flap
 
 ;--------------------- styles -----------------------------
 stylesheets[all][] = kolding.css
