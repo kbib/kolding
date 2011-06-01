@@ -22,3 +22,5 @@ regions[flap]           = Flap
 ;--------------------- styles -----------------------------
 stylesheets[all][] = kolding.css
 
+scripts[] = js/jquery.stickysidebar.js
+scripts[] = js/setup.js

@@ -116,7 +116,7 @@ div.notice.soon {
   left:0;
   /*top:64px;*/
   background: #ebebeb;
-  width:678px;
+  width:684px;
   height:70px;
 	margin:0;
   margin-top:20px;
@@ -127,7 +127,7 @@ div.notice.soon {
   top:64px;
   /*margin:0;*/
  margin-left:20px;
- width:224px;
+ width:218px;
  height:auto;
   
 }
@@ -135,6 +135,15 @@ div.notice.soon {
   background-color:#ddd;
   border:0 none;
   padding: 4px 0 1px 5px;
+}
+#user-login-form #edit-pass-wrapper {
+  width:160px;
+}
+#user-login-form #edit-pass-wrapper input {
+  width:160px;
+}
+#user-login-form .form-image-button {
+  margin: 0 0 0 6px;
 }
 #user-login-form label{
   color:#666666;
@@ -202,15 +211,36 @@ div.notice.soon {
 	margin-top: 10px;
 }
 .ting-search-carousel .search-results {
-	background: transparent;
+	background: #ebebeb;
 }
 .ting-search-carousel {
 	background: url(images/carousel-back.png) no-repeat;
 	margin-top: -14px;
 }
-.ting-search-carousel .search-controller li {
-	margin-top: -2px;
+
+.ting-search-carousel .search-controller {
+  width:910px;
+  background:#b7b7b5;
+  border: 0 none !important;
+  margin:0;
+  padding-left:10px;
 }
+
+.ting-search-carousel .search-controller li {
+	margin-top: 0;
+  background:transparent;
+  border:0;
+  text-transform:uppercase;
+  border-top:0 none !important;
+  padding-top:2px;
+}
+.ting-search-carousel .search-controller li.active {
+  background:#ebebeb;
+}
+.ting-search-carousel .search-controller li.active a{
+  color:#f1942b;
+}
+
 #navigation {
   height:40px;
 }
@@ -251,11 +281,9 @@ body.no-sidebars #content {
 .ting-search-carousel {
   width:941px;
 }
-.ting-search-carousel .search-controller {
-  width:939px;
-}
+
 .jcarousel-skin-ting-search-carousel {
-  margin-left:255px;
+  margin-left:235px;
   width:675px;
 }
 
@@ -263,7 +291,7 @@ body.no-sidebars #content {
   position:absolute;
   width:0;
   right:0px;
-  top:200px;
+  top:208px;
 }
 
 #flap{
@@ -295,3 +323,23 @@ body.no-sidebars #content {
   font-weight:bold;
   color:#000;
 } 
+
+.ting-search-carousel {
+  left:0;
+  width:922px;
+}
+#content-inner {
+  margin:0 0 0 19px;
+}
+.ting-search-carousel .subtitle{
+  color:#000;
+  text-transform:none;
+  text-shadow: 0 0 0 transparent;
+  margin:10px 0 0 30px;
+}
+.jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal {
+  left:-254px;
+}
+.ting-search-carousel .search-results .creator, .ting-search-carousel .search-results .title {
+  display:none;
+}
