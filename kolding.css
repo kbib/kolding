@@ -195,19 +195,19 @@ div.notice.soon {
   padding-top:20px;
   /*padding-top:64px;*/
 }
-.menuwrapper .servicemenu { /* top right service menu */
+.menuwrapper ul { /* top right service menu */
   float:right;
   margin-right:50px;
   height:24px;
   font-family:verdana;
   font-size:11px;
 }
-.menuwrapper .servicemenu li {
+.menuwrapper ul li {
   float:left;
   margin-left:15px;
   margin-top:7px;
 }
-.menuwrapper .servicemenu li a{
+.menuwrapper ul li a{
   color:#003399;
 }
 .menuwrapper .rsslink{
