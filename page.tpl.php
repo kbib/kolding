@@ -128,7 +128,17 @@
           </div>
         </div>
 
-        <div id="pagefooter">
+<div id="flapContainer">
+          <div id="flap">
+          <?php print $flap; ?>
+          </div>
+        </div>
+       
+        </div>
+        
+         <div id="bubbles">
+         <div id="bubbles2"> </div>
+         <div id="pagefooter"> 
           <div id="pagefooter-inner" class="clearfix">
 
             <div class="left first">
@@ -149,11 +159,6 @@
             </div>
       
           </div>
-        </div>
-        <div id="flapContainer">
-        <div id="flap">
-          <?php print $flap; ?>
-        </div>
         </div>
 
       </div>
