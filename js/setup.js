@@ -1,7 +1,9 @@
 $(function () {
   $("#flap").stickySidebar();
   
-  $('#search_type').selectmenu();
+  $('.select-type-field').selectmenu({
+	  'width' : '180',
+  });
   
   
 /*	$('.view-id-Ingredients').ajaxComplete(function() {

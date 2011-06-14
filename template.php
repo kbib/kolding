@@ -2,15 +2,15 @@
 
 function kolding_ting_search_form($form){
   
-  jquery_ui_add('ui.core');
+  jquery_ui_add('ui.dialog');
   jquery_ui_theme_load();
-  drupal_add_js(drupal_get_path('theme', 'kolding').'/js/selectmenu.js');
+  drupal_add_js(drupal_get_path('theme', 'kolding').'/js/selectmenu.js', 'module', 'footer', TRUE);
   
   
 	$form['submit']['#type'] 	= "image_button" ;
 	$form['submit']['#src'] 	= drupal_get_path('theme','kolding')."/images/search-btn.png";
 	$form['submit']['#attributes']['class'] 	= "";
-	$form['submit']['#prefix'] = '<select id="search_type"><option value="bog">bøger</option><option value="cd">musik</option></select>';
+	//$form['submit']['#prefix'] = '<select id="search_type"><option>vælg materiale</option><option value="bog">bøger</option><option value="cd">musik</option></select>';
 	
 
 	return drupal_render($form);	
