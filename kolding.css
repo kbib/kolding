@@ -523,7 +523,7 @@ ul.pager li a {
   position:relative;
 }
 
-#content  .addthis_toolbox{
+#content .addthis_toolbox{
   position:absolute;
   right:0px;
   width:200px;
@@ -539,4 +539,20 @@ body.node-type-page .addthisCon .addthis_toolbox{
 .panel-threecol-left-stacked-right,
 .panel-twocol-left-stacked{
   padding-top:30px;
+}
+
+.page-arrangementer .pane-categories .item-list li a, 
+.pane-library_portal .menu li.leaf a{
+  display:block;
+  padding:20px 0 5px 0;
+  color:#000;  
+  border-bottom:1px solid #f1eeee;
+  font-size:11px;
+  background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
+}
+.pane-library_portal .menu li.leaf a:hover, .pane-library_portal .menu li.leaf a.active{
+  color:#eb8b03;
+  text-decoration:none !important;
+  font-weight:normal;
+  background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
 }
