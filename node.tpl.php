@@ -73,6 +73,16 @@ if ($page == 0) { ?>
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
+
+<?php if($node->field_top_image): ?>
+  <div class="topimage">
+    <?php print  theme('imagecache','mobile-list-image',$node->field_top_image[0]['filepath']);?>
+    <div class="caption"><?php print $node->field_top_image[0]['data']['title']?></div>
+  </div>
+<?php endif;?>
+
+
+
   <div class="subject">
     <?php print return_terms_from_vocabulary($node, "1"); ?> 
   </div>
