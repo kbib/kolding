@@ -541,7 +541,7 @@ body.node-type-page .addthisCon .addthis_toolbox{
   padding-top:30px;
 }
 
-.page-arrangementer .pane-categories .item-list li a, 
+
 .pane-library_portal .menu li.leaf a{
   display:block;
   padding:20px 0 5px 0;
@@ -555,4 +555,54 @@ body.node-type-page .addthisCon .addthis_toolbox{
   text-decoration:none !important;
   font-weight:normal;
   background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
+}
+
+
+
+
+/**
+ * arrangementer side
+ */
+
+.page-arrangementer .pane-categories .item-list li{
+  border:0 none;
+  background:transparent none;
+}
+
+ .page-arrangementer .pane-categories .item-list li a{
+  display:block;
+  padding:20px 0 5px 0;
+  color:#000;  
+  border-bottom:1px solid #f1eeee;
+  font-size:11px;
+  background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
+  text-transform:none;
+}
+.page-arrangementer .pane-categories .item-list li a:hover, .page-arrangementer .pane-categories .item-list li a.active{
+  color:#eb8b03;
+  text-decoration:none !important;
+  font-weight:normal;
+  background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
+}
+body.ding-arrangementer .panel-threecol-left-stacked-right .panel-left {
+  width:180px;
+} 
+body.page-arrangementer .panel-middle{
+  width:500px;
+}
+.tab-navigation, .page-arrangementer .panel-left ul, .ding-arrangementer .panel-left ul, .ding-ting-collection .panel-left ul .tab-navigation ul {
+  width:180px;
+}
+
+.tab-navigation ul.item-list li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {
+  width:156px;
+}
+.panel-threecol-left-stacked-right .panel-left{
+  width:180px;
+}
+.panel-threecol-left-stacked-right .content-left{
+  width:675px;
+}
+.panel-threecol-left-stacked-right .panel-middle{
+  padding-left:20px;
 }
