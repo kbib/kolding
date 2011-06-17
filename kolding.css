@@ -597,7 +597,8 @@ ul.menu li.expanded {
 }
 
 .pane-library_portal .menu li.leaf a,
-.pane-library_portal ul.menu li.expanded a{
+.pane-library_portal ul.menu li.expanded a,
+.pane-library_portal ul.menu li.collapsed a{
   display:block;
   padding:20px 0 5px 0;
   color:#000;  
