@@ -158,6 +158,12 @@
               <?php print $footer; ?>
             </div>
       
+      <div class="icons">
+      <a href="https://www.facebook.com/koldingbib" class="fb">Facebook</a>
+      <a href="http://www.flickr.com/search/?w=all&q=kolding+bibliotek&m=text" class="fl">Flickr</a>
+      <a href="http://ting.dk/" class="ting">Ting</a>
+      </div>
+      
           </div>
         </div>
 

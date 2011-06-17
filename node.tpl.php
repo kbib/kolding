@@ -1,15 +1,4 @@
 
-<!-- AddThis Button BEGIN -->
-<div class="addthisCon">
-<div class="addthis_toolbox addthis_default_style ">
-<a class="addthis_button_preferred_1">Del på Facebook</a>
-<span class="addthis_separator">|</span>
-<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4df767a47e21e028" class="addthis_button_compact">Del</a>
-
-</div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4df767a47e21e028"></script>
-</div>
-<!-- AddThis Button END -->
 <?php
 // $Id$
 
@@ -18,11 +7,13 @@
  * Template to render nodes.
  */
 
+
+
 if ($page == 0) { ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 
-  <div class="picture"><?php print $list_image; ?></div>
+  <div class="picture"><?php print $field_list_image[0]['view']; ?></div>
 
   <div class="content">
 
@@ -72,6 +63,18 @@ if ($page == 0) { ?>
 //Content
 ?>
 
+<!-- AddThis Button BEGIN -->
+<div class="addthisCon">
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1">Del på Facebook</a>
+<span class="addthis_separator">|</span>
+<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4df767a47e21e028" class="addthis_button_compact">Del</a>
+
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4df767a47e21e028"></script>
+</div>
+<!-- AddThis Button END -->
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 
 <?php if($node->field_top_image): ?>
@@ -90,13 +93,6 @@ if ($page == 0) { ?>
 	<?php if($node->title){	?>	
 	  <h2><?php print $title;?></h2>
 	<?php } ?>
-
-	<div class="meta">
-	  
-		<?php print format_date($node->created, 'custom', "j F Y") ?> 
-    <i><?php print t('by'); ?></i> 
-		<span class="author"><?php print theme('username', $node); ?></span>	
-	</div>
 
 	<div class="content">
 		<?php print $content ?>
@@ -121,6 +117,10 @@ if ($page == 0) { ?>
 	<?php if ($links){ ?>
     <?php  print $links; ?>
 	<?php } ?>
+  
+  <div class="meta">
+    Sidst opdateret <?php print format_date($node->changed, 'custom', "j F Y") ?>
+  </div>
 
 </div>
 <?php } ?>

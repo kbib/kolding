@@ -83,9 +83,11 @@
   <?php if ($links){ ?>
     <?php print $links; ?>
   <?php } ?>
+  
+  <iframe src="http://www.facebook.com/widgets/like.php?href=<?php echo url(request_uri(),array('absolute' => true))  ; ?>"
+scrolling="no" frameborder="0"
+style="border:none; width:450px; height:65px"></iframe>
+  
 <?php endif; ?>
 </div>
 
-<iframe src="http://www.facebook.com/widgets/like.php?href=<?php echo url(request_uri(),array('absolute' => true))  ; ?>"
-scrolling="no" frameborder="0"
-style="border:none; width:450px; height:65px"></iframe>

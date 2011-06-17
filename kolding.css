@@ -4,13 +4,21 @@ body {
   background: #f4f4f4;
 }
 
-a:link, a:visited, a:active {
+a:link, a:visited, a:active,
+.author a, .author a:link, .author a:visited, .author a:active,
+.meta a, .meta a:link, .meta a:visited, .meta a:active {
   
-  color:#f28101;
+  color:#003399;
+}
+.pane-kolding_article_list-panel_pane_3 .view-node a{
+  color: #f28101;
 }
 
 body.logged-in {
 
+}
+.subject a {
+  background-color: #f28101 !important;
 }
 #container {
 	/*background: url(images/page-border-1.png) repeat-y center top;*/
@@ -42,6 +50,13 @@ body.logged-in {
 #account h3 {
 	position: absolute;
 	left: -9999em;
+}
+#account-profile ul{
+  background:transparent none;
+  border-top:2px solid #F48100;
+}
+#block-ding-library-user-account > form > div > p{
+  font-weight:bold;
 }
 #ting-search-form {
 	background: transparent none; /* url(images/search.png) no-repeat 0 15px; */
@@ -114,6 +129,26 @@ body.logged-in {
   margin-bottom:20px;
 }
 
+#pagefooter-inner .icons{
+  float:right;
+}
+#pagefooter-inner .icons a{
+  display:block;
+  background: transparent url(images/icons.png) no-repeat -3px -4px;
+  height:45px;
+  width:45px;
+  float:left;
+  text-indent:-999em;
+  margin-left:20px;
+}
+#pagefooter-inner .icons a.fl{
+  background-position:-60px -4px;
+}
+#pagefooter-inner .icons a.ting{
+  background-position:-110px -4px;
+  width:100px;
+}
+
 .panel-threecol-33-34-33-stacked .panel-top {
 	position: relative;
 }
@@ -155,6 +190,10 @@ div.notice.soon {
   left:0;
   /*top:64px;*/
   background: #ebebeb;
+  border-radius:5px;
+  -o-border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
   width:684px;
   height:70px;
 	margin:0;
@@ -166,9 +205,11 @@ div.notice.soon {
 #account {
 	/*position:absolute;*/
   /*right:0;*/
-  top:64px;
+  /*top:64px;*/
   /*margin:0;*/
+ position:relative;
  margin-left:20px;
+ margin-top:-4px;
  width:218px;
  height:auto;
  
@@ -349,14 +390,14 @@ body.no-sidebars #content {
   top:200px;*/
   width:225px;
 }
-#flap #block-block-1{
+#flap .block:first-child{
   background: #eb8b03 url(images/flap-box-gradient.png) repeat-x top left;
   padding:10px;
   border-radius:5px;
   margin-bottom:20px;
   color:#fff;
 }
-#flap #block-block-1 h3{
+#flap .block:first-child h3{
   color:#fff;
 }
 
@@ -480,6 +521,16 @@ body.no-sidebars #content {
   
   margin-left:0 !important;
 }
+.pane-kolding_article_list-panel_pane_3 .tid a{
+  color:#fff;
+  background:#eb8b03;
+  padding:2px;
+  text-transform:uppercase;
+}
+.pane-kolding_article_list-panel_pane_3 .field-library-ref-nid,
+.pane-kolding_article_list-panel_pane_3 .name{
+  display:none;
+}
 .pane-kolding_article_list-panel_pane_3 li > div{
   margin-left:140px;
 }
@@ -541,8 +592,12 @@ body.node-type-page .addthisCon .addthis_toolbox{
   padding-top:30px;
 }
 
+ul.menu li.expanded {
+  margin:0 0 0 15px;
+}
 
-.pane-library_portal .menu li.leaf a{
+.pane-library_portal .menu li.leaf a,
+.pane-library_portal ul.menu li.expanded a{
   display:block;
   padding:20px 0 5px 0;
   color:#000;  
@@ -550,10 +605,12 @@ body.node-type-page .addthisCon .addthis_toolbox{
   font-size:11px;
   background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
 }
-.pane-library_portal .menu li.leaf a:hover, .pane-library_portal .menu li.leaf a.active{
+
+.pane-library_portal .menu li.leaf a:hover, .pane-library_portal .menu li.leaf a.active,
+.pane-library_portal ul.menu li.expanded a.active{
   color:#eb8b03;
   text-decoration:none !important;
-  font-weight:normal;
+  font-weight:bold;
   background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
 }
 
@@ -605,4 +662,32 @@ body.page-arrangementer .panel-middle{
 }
 .panel-threecol-left-stacked-right .panel-middle{
   padding-left:20px;
+}
+#ting-search-form div.example, #ting-search-form div.example li a, #ting-search-form div.example p{
+  color:#039;
+}
+
+.node .meta{
+  text-align:right;
+  color:#000 !important;
+}
+
+
+.panel-left .menu li ul{
+  display:none;
+}
+#event-list li .calendar-leafs .leaf{
+  background: transparent url(images/bg-calendar.png) no-repeat 0 0;
+}
+.view .feed-icon{
+  float:right;
+  margin:0;
+}
+.view .feed-icon a, .view-footer a{
+  color: #f28101;
+}
+.view-footer{
+  float:left;
+  /*clear:none;*/
+  margin:0 0 0 10px;
 }
