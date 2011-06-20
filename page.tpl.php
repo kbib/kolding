@@ -79,6 +79,7 @@
                 <?php if ($primary_links){ ?>
                   <?php print theme('links', $primary_links); ?>
                 <?php } ?>
+                <?php print l(t('Dit Børnebibliotek'),'dit-boernebibliotek',array('attributes' => array('class' => 'born')));?>
               </div>
             </div>
 

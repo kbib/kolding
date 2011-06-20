@@ -731,3 +731,15 @@ body.page-arrangementer .panel-middle{
   width: 100% !important;
   height: auto !important;
 }
+
+
+.born{
+  position:absolute;
+  right:0;
+  display:block;
+  width:193px;
+  height:55px;
+  background:transparent url(images/dit-born.png);
+  text-indent:-999em;
+  margin-top:-8px;
+}
