@@ -622,12 +622,14 @@ ul.menu li.expanded {
  * arrangementer side
  */
 
-.page-arrangementer .pane-categories .item-list li{
+ .page-ting #ting-object .tab-navigation .item-list li, .page-arrangementer .pane-categories .item-list li{
   border:0 none;
   background:transparent none;
+  padding:0;
+  margin:0;
 }
 
- .page-arrangementer .pane-categories .item-list li a{
+ .page-ting #ting-object .tab-navigation .item-list li a, .page-arrangementer .pane-categories .item-list li a{
   display:block;
   padding:20px 0 5px 0;
   color:#000;  
@@ -635,6 +637,7 @@ ul.menu li.expanded {
   font-size:11px;
   background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
   text-transform:none;
+  float:none;
 }
 .page-arrangementer .pane-categories .item-list li a:hover, .page-arrangementer .pane-categories .item-list li a.active{
   color:#eb8b03;
@@ -655,6 +658,9 @@ body.page-arrangementer .panel-middle{
 .tab-navigation ul.item-list li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {
   width:156px;
 }
+
+
+
 .panel-threecol-left-stacked-right .panel-left{
   width:180px;
 }
@@ -742,4 +748,9 @@ body.page-arrangementer .panel-middle{
   background:transparent url(images/dit-born.png);
   text-indent:-999em;
   margin-top:-8px;
+}
+
+
+body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
+  width:490px;
 }
