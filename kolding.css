@@ -680,6 +680,9 @@ body.page-arrangementer .panel-middle{
 #event-list li .calendar-leafs .leaf{
   background: transparent url(images/bg-calendar.png) no-repeat 0 0;
 }
+#event-list li div.leaf .month{
+  color:#EB8B03;
+}
 .view .feed-icon{
   float:right;
   margin:0;
@@ -691,4 +694,40 @@ body.page-arrangementer .panel-middle{
   float:left;
   /*clear:none;*/
   margin:0 0 0 10px;
+}
+
+
+
+
+.panels-flexible-region-wiki_frontpage-center{
+  width:479px;
+}
+.panels-flexible-region-wiki_frontpage-kampagne{
+  width:223px;
+}
+.panels-flexible-column-wiki_frontpage-2{
+  width:296px;
+}
+.panels-flexible-column-wiki_frontpage-3{
+  width:406px;
+}
+  .panels-flexible-region-wiki_frontpage-middle{
+    width:164px;
+  }
+  .panels-flexible-region-wiki_frontpage-right{
+    width:223px
+  }
+
+.panels-flexible-region-wiki_frontpage-emneord{
+  width:479px;
+}
+.panels-flexible-region-wiki_frontpage-kampagne_{
+  width:223px;
+}
+
+
+
+.panels-flexible-region-wiki_frontpage-middle img{
+  width: 100% !important;
+  height: auto !important;
 }
