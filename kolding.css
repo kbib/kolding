@@ -616,7 +616,9 @@ ul.menu li.collapsed {
   background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
 }
 
-
+.panel-pane .node-teaser .content {
+  width: 500px;
+}
 
 
 /**
