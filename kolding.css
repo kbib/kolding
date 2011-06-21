@@ -592,7 +592,8 @@ body.node-type-page .addthisCon .addthis_toolbox{
   padding-top:30px;
 }
 
-ul.menu li.expanded {
+ul.menu li.expanded,
+ul.menu li.collapsed {
   margin:0 0 0 15px;
 }
 
@@ -704,7 +705,12 @@ body.page-arrangementer .panel-middle{
 
 
 
-
+.panels-flexible-column-wiki_frontpage-9{
+  width:180px;
+}
+.panels-flexible-column-wiki_frontpage-main{
+  width:auto;
+}
 .panels-flexible-region-wiki_frontpage-center{
   width:479px;
 }
@@ -753,4 +759,16 @@ body.page-arrangementer .panel-middle{
 
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
   width:490px;
+}
+
+
+
+
+/* ting objet result */
+
+ .ting-overview .right-column{
+   width:250px;
+ }
+.object-information{
+  width:430px;
 }
