@@ -689,7 +689,9 @@ body.page-arrangementer .panel-middle{
   width:156px;
 }
 
-
+.pane-tagadelic-2 {
+  background-image: none;
+}
 
 .panel-threecol-left-stacked-right .panel-left{
   width:180px;
