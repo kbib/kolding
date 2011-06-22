@@ -259,6 +259,10 @@ div.notice.soon {
   font-family:verdana;
   font-size:11px;
 }
+#pagefooter h3, .pane-event_list h3, .pane-library_feature_list h3{
+  font-family:verdana;
+  font-size:11px;
+}
 .menuwrapper ul li {
   float:left;
   margin-left:15px;
