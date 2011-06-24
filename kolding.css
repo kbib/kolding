@@ -658,7 +658,7 @@ ul.menu li.collapsed {
 /**
  * Tabs
  */
-ul.primary { padding-top: 6px; }
+ul.primary { padding-top: 6px; padding-left: 2px; }
 ul.primary li a { padding: 5px 10px 0; background: #EBEBEB; }
 ul.primary li.active a { color: #F28101; }
 
