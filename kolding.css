@@ -747,46 +747,43 @@ body.page-arrangementer .panel-middle{
 }
 
 
+/** Wiki frontpage **/
 
 .panels-flexible-column-wiki_frontpage-9{
   width:180px;
 }
 .panels-flexible-column-wiki_frontpage-main{
-  width:auto;
+  width:auto; padding-left: 20px;
 }
-.panels-flexible-region-wiki_frontpage-center{
-  width:479px;
+.panels-flexible-region-wiki_frontpage-emneord,
+.panels-flexible-region-wiki_frontpage-center {
+  width:460px;
 }
-.panels-flexible-region-wiki_frontpage-kampagne{
-  width:223px;
+.panels-flexible-region-wiki_frontpage-emneord .inside,
+.panels-flexible-region-wiki_frontpage-center .inside {
+  padding-right: 15px; 
 }
+
 .panels-flexible-column-wiki_frontpage-2{
-  width:296px;
+  width:310px;
+}
+.panels-flexible-column-wiki_frontpage-2 .inside {
+  padding-right: 15px;
 }
 .panels-flexible-column-wiki_frontpage-3{
-  width:406px;
+  width:402px;
 }
-  .panels-flexible-region-wiki_frontpage-middle{
-    width:164px;
-  }
-  .panels-flexible-region-wiki_frontpage-right{
-    width:223px
-  }
-
-.panels-flexible-region-wiki_frontpage-emneord{
-  width:479px;
+.panels-flexible-region-wiki_frontpage-middle {
+  width:164px;
 }
-.panels-flexible-region-wiki_frontpage-kampagne_{
-  width:223px;
+.panels-flexible-region-wiki_frontpage-right,
+.panels-flexible-region-wiki_frontpage-kampagne,
+.panels-flexible-region-wiki_frontpage-kampagne_ {
+  width:230px;
 }
 
 
-
-.panels-flexible-region-wiki_frontpage-middle img{
-  width: 100% !important;
-  height: auto !important;
-}
-
+.pane-field_wiki_images .more { color: #f28101; }
 
 .born{
   position:absolute;
@@ -803,6 +800,7 @@ body.page-arrangementer .panel-middle{
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
   width:475px;
 }
+
 
 
 
