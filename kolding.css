@@ -793,8 +793,38 @@ body.page-arrangementer .panel-middle{
   width:230px;
 }
 
+.pane-wiki_list-panel_pane_3 h3 {
+  margin-bottom: 10px; 
+}
+.pane-wiki_list-panel_pane_3 li {
+  clear: both;
+}
+.pane-wiki_list-panel_pane_3 a {
+  color: #666;
+}
+.pane-wiki_list-panel_pane_3 a.imagecache { 
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;  
+}
+.pane-wiki_list-panel_pane_3 .type {
+  display: inline;
+  padding: 1px 7px;
+  background: #f28101;
+  color: #fff;
+  text-transform: uppercase;
+}
+.pane-wiki_list-panel_pane_3 .attachment-after li {
+  padding: 8px;
+  border: 1px solid #EBEBEB;
+  border-width: 1px 0 0;
+}
+.pane-wiki_list-panel_pane_3 .attachment-after li.views-row-last {
+  border-width: 1px 0;
+}
 
 .pane-field_wiki_images .more { color: #f28101; }
+
 
 .born{
   position:absolute;
