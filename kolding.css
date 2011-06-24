@@ -262,6 +262,7 @@ div.notice.soon {
 #pagefooter h3, .pane-event_list h3, .pane-library_feature_list h3{
   font-family:verdana;
   font-size:11px;
+  font-weight: bold;
 }
 .menuwrapper ul li {
   float:left;
@@ -346,6 +347,7 @@ div.notice.soon {
 #navigation li{
   height:36px;
   padding:0;
+  
 }
 #navigation li.active-trail {
 	background:url(images/menuactarrow.png) no-repeat center bottom; 
@@ -353,6 +355,7 @@ div.notice.soon {
 #navigation a{
   color:#fff;
   border:0 none;
+  font-weight: bold !important;
 }
 #navigation li.active-trail a{
 }
@@ -385,7 +388,7 @@ body.no-sidebars #content {
 #flapContainer{
   position:absolute;
   width:0;
-  right:0px;
+  right:-20px;
   top:208px;
 }
 
@@ -661,6 +664,7 @@ ul.menu li.collapsed {
   background:transparent none;
   padding:0;
   margin:0;
+  padding-left:10px;
 }
 
  .page-ting #ting-object .tab-navigation .item-list li a, .page-arrangementer .pane-categories .item-list li a{
@@ -720,8 +724,12 @@ body.page-arrangementer .panel-middle{
   display:none;
 }
 #event-list li .calendar-leafs .leaf{
-  background: transparent url(images/bg-calendar.png) no-repeat 0 0;
+  background: transparent url(images/bg-calendar.png) no-repeat 0 0 !important;
 }
+#event-list li .calendar-leafs .leaf.today {
+  background: transparent url(images/bg-calendar.png) no-repeat 0 -64px !important;
+}
+
 #event-list li div.leaf .month{
   color:#EB8B03;
 }
@@ -793,7 +801,7 @@ body.page-arrangementer .panel-middle{
 
 
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
-  width:490px;
+  width:475px;
 }
 
 
