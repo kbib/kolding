@@ -24,6 +24,34 @@ function kolding_preprocess_page(&$variables){
 }
 
 /**
+ * Override of theme_breadcrumb().
+ */
+function kolding_breadcrumb($breadcrumb) {
+  // Static variable to make sure we only set_js once.
+  static $once;
+
+  // Okay, we need to fudge the active trail on the top menu, since it's.
+  // not really connected to many of the underlying pages. For this, we
+  // extract the URLs from the breadcrumb trail.
+  if (count($breadcrumb) > 1 && !$once) {
+    $urls = array();
+    foreach ($breadcrumb as $item) {
+      $matches = array();
+      if (preg_match('/href="([^"]+)"/', $item, $matches)) {
+        $urls[] = $matches[1];
+      }
+    }
+
+    drupal_add_js(array('kolding' => array('breadcrumbURLs' => $urls)), 'setting');
+
+    $once = TRUE;
+  }
+
+  // Fall back on the breadcrumb provided by Dynamo.
+  return dynamo_breadcrumb($breadcrumb);
+}
+
+/**
  * Theming panels panes. Overrides Dynamo to add additional wrappers to support sliding doors.
  */
 function kolding_panels_pane($content, $pane, $display) {
