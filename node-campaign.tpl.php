@@ -11,9 +11,9 @@ if ($node->campaign_type == "image-only"): ?>
 		<?php print l($node->field_campaign_image['0']['view'], $node->field_campaign_link['0']['url'], $options= array('html'=>TRUE)); ?>
 	</div>
 <?php elseif($node->campaign_type == "wysiwyg-title"): ?>
-	<div class="ding-box">	
+	<div class="campaign-box">	
 	<div class="campaign-text clearfix">
-		<h3><?php print $title;?></h3>
+		<div class="pane-title"><h3><?php print $title;?></h3></div>
 		<div class="campaign-inner">
 			<div class="campaign-type-<?php print $node->campaign_type;?>">
 				
