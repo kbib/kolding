@@ -823,8 +823,9 @@ body.page-arrangementer .panel-middle{
   border-width: 1px 0;
 }
 
-.pane-field_wiki_images .more { color: #f28101; }
-
+.pane-field_wiki_images .more,
+.ding-wiki-gallery .ding-wiki-carousel .count,
+.ding-wiki-gallery .ding-wiki-carousel .controls a { color: #f28101; }
 
 .born{
   position:absolute;
