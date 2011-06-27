@@ -14,7 +14,7 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if IE 6]>
-  <link rel="stylesheet" href="<?php print $base_path . $directory; ?>/ie6.css" type="text/css" />
+  <link rel="stylesheet" href="<?php print $base_path . $directory; ?>/css/ie6.css" type="text/css" />
   <![endif]-->
 </head>
 <body class="<?php print $body_classes; ?>">

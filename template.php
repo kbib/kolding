@@ -16,21 +16,39 @@ function kolding_ting_search_form($form){
 	return drupal_render($form);	
 }
 
-function kolding_preprocess(&$variables){
-
-  //drupal_add_js(drupal_get_path('theme', 'kolding').'/js/selectmenu.js');
-  $variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>',array('html' => true, 'attributes' => array('class' => 'rsslink	')));
+/**
+ * Preprocess variables for the page template.
+ */
+function kolding_preprocess_page(&$variables){
+  $variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>', array('html' => true, 'attributes' => array('class' => 'rsslink	')));
 }
-function kolding_user_login_block($form){
-/*  $form['submit']['#type'] = "submit" ;
 
-  $name = drupal_render($form['name']);
-  $pass = drupal_render($form['pass']);
-  $submit = drupal_render($form['submit']);
-  $remember = drupal_render($form['remember_me']);
+/**
+ * Override of theme_breadcrumb().
+ */
+function kolding_breadcrumb($breadcrumb) {
+  // Static variable to make sure we only set_js once.
+  static $once;
 
-  $before = '<h3>'.t('Login &rsaquo;').'</h3>';//.l(t('> NemLog-in'),'/nemlogin',array('attributes' => array('class' => 'nemlogin')));
-  return $before . $name . '<div>' . $pass . $submit . '</div>' . $remember . drupal_render($form);*/
+  // Okay, we need to fudge the active trail on the top menu, since it's.
+  // not really connected to many of the underlying pages. For this, we
+  // extract the URLs from the breadcrumb trail.
+  if (count($breadcrumb) > 1 && !$once) {
+    $urls = array();
+    foreach ($breadcrumb as $item) {
+      $matches = array();
+      if (preg_match('/href="([^"]+)"/', $item, $matches)) {
+        $urls[] = $matches[1];
+      }
+    }
+
+    drupal_add_js(array('kolding' => array('breadcrumbURLs' => $urls)), 'setting');
+
+    $once = TRUE;
+  }
+
+  // Fall back on the breadcrumb provided by Dynamo.
+  return dynamo_breadcrumb($breadcrumb);
 }
 
 /**

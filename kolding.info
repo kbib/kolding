@@ -1,4 +1,3 @@
-; $Id$
 name = Kolding
 description = Dynamo subtheme for Aabenraa Bibliotekerne
 screenshot  = screenshot.png
@@ -20,7 +19,7 @@ regions[footer_four]    = footer four
 regions[flap]           = Flap
 
 ;--------------------- styles -----------------------------
-stylesheets[all][] = kolding.css
+stylesheets[all][] = css/kolding.css
 
 scripts[] = js/jquery.stickysidebar.js
-scripts[] = js/setup.js
+scripts[] = js/kolding.js

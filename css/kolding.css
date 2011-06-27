@@ -21,8 +21,8 @@ body.logged-in {
   background-color: #f28101 !important;
 }
 #container {
-	/*background: url(images/page-border-1.png) repeat-y center top;*/
- background: transparent url(images/topribbon.png) repeat-x center top;
+	/*background: url(../images/page-border-1.png) repeat-y center top;*/
+ background: transparent url(../images/topribbon.png) repeat-x center top;
 /*	margin-top: 2px; */
 }
 #pageheader {
@@ -33,14 +33,14 @@ body.logged-in {
   left:-18px;
   top:0;
   padding:0;
-  background: url(images/logo.png) no-repeat left;
+  background: url(../images/logo.png) no-repeat left;
   height:108px;
   width:400px;
   margin:0;
   z-index:50;
 }
 #site-name a { /* Kolding title */ 
-	background: url(images/logotitle.png) no-repeat 0 0;
+	background: url(../images/logotitle.png) no-repeat 0 0;
   position:absolute;
   left:120px;
   top:44px;
@@ -59,14 +59,14 @@ body.logged-in {
   font-weight:bold;
 }
 #ting-search-form {
-	background: transparent none; /* url(images/search.png) no-repeat 0 15px; */
+	background: transparent none; /* url(../images/search.png) no-repeat 0 15px; */
  padding:15px 0 0 100px;
 }
 #ting-search-form div.example, #ting-search-form div.example li a, #ting-search-form div.example p {
 	color:#efefef;
 }
 #user-login-form {
-	background: transparent none; /*url(images/logind.png) no-repeat scroll 0 0;*/
+	background: transparent none; /*url(../images/logind.png) no-repeat scroll 0 0;*/
   margin:0;
   padding:0;
 }
@@ -82,7 +82,7 @@ body.logged-in {
   margin: 3px 0 0 5px;
 }
 .jcarousel-skin-biblo {
-	background: transparent url(images/bg-carousel.png) repeat-x scroll center top;
+	background: transparent url(../images/bg-carousel.png) repeat-x scroll center top;
 }
 #pagebody {
   margin-top:37px;
@@ -92,12 +92,12 @@ body.logged-in {
 	background: transparent;
 }
 #pagefooter {
-	background: transparent url(images/footer-ribbon.png) repeat-x center top;
+	background: transparent url(../images/footer-ribbon.png) repeat-x center top;
   
 }
 #bubbles {
   position:relative;
-  background: #FEFFFE url(images/footer-bubbles.png) no-repeat center -92px;
+  background: #FEFFFE url(../images/footer-bubbles.png) no-repeat center -92px;
   /*height:314px;
   width:100%;
   position:absolute;
@@ -107,7 +107,7 @@ body.logged-in {
 }
 #bubbles2 {
   position:absolute;
-  background: transparent url(images/footer-bubbles.png) no-repeat center top;
+  background: transparent url(../images/footer-bubbles.png) no-repeat center top;
   top:-92px;
   width:100%;
   height:92px;
@@ -134,7 +134,7 @@ body.logged-in {
 }
 #pagefooter-inner .icons a{
   display:block;
-  background: transparent url(images/icons.png) no-repeat -3px -4px;
+  background: transparent url(../images/icons.png) no-repeat -3px -4px;
   height:45px;
   width:45px;
   float:left;
@@ -158,13 +158,13 @@ div.notice.soon {
 	top: -2px;
 	width: 223px;
 	height: 244px;
-	background: transparent url(images/notice-soon.png) left top no-repeat;
+	background: transparent url(../images/notice-soon.png) left top no-repeat;
 	z-index: 100;
 }
 #user-login-form .form-item-textfield { margin-bottom: 3px;} 
 
 #page {
-	background: url(images/rings.png) no-repeat center top;
+	background: url(../images/rings.png) no-repeat center top;
 	overflow: hidden;
 	width: auto;
 	margin: 0;
@@ -296,7 +296,7 @@ div.notice.soon {
 	margin-bottom: 0;
 	margin-top: 13px;
 	width: 278px;
-	background: #fff; /*red url(images/search-back.png) no-repeat;*/
+	background: #fff; /*red url(../images/search-back.png) no-repeat;*/
 	padding-top: 2px;
 	padding-left: 2px;
 	margin-right: 10px;
@@ -310,7 +310,7 @@ div.notice.soon {
 	background: #ebebeb;
 }
 .ting-search-carousel {
-	background: url(images/carousel-back.png) no-repeat;
+	background: url(../images/carousel-back.png) no-repeat;
 	margin-top: -14px;
 }
 
@@ -350,7 +350,7 @@ div.notice.soon {
   
 }
 #navigation li.active-trail {
-	background:url(images/menuactarrow.png) no-repeat center bottom; 
+	background:url(../images/menuactarrow.png) no-repeat center bottom; 
 }
 #navigation a{
   color:#fff;
@@ -361,7 +361,7 @@ div.notice.soon {
 }
 
 #testsite {
-	background: url(images/test-site.png) no-repeat;
+	background: url(../images/test-site.png) no-repeat;
 	height: 77px;
 	width: 157px;
 	position: absolute;
@@ -398,7 +398,7 @@ body.no-sidebars #content {
   width:225px;
 }
 #flap .block:first-child{
-  background: #eb8b03 url(images/flap-box-gradient.png) repeat-x top left;
+  background: #eb8b03 url(../images/flap-box-gradient.png) repeat-x top left;
   padding:10px;
   border-radius:5px;
   margin-bottom:20px;
@@ -465,7 +465,7 @@ body.no-sidebars #content {
 }
 
 .ui-selectmenu {
-  background:transparent url('images/choose-mat.png') no-repeat;
+  background:transparent url('../images/choose-mat.png') no-repeat;
   height:22px;
   width:149px;
   display:block;
@@ -612,7 +612,7 @@ ul.menu li.collapsed {
   color:#000;  
   border-bottom:1px solid #f1eeee;
   font-size:11px;
-  background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
+  background: transparent url(../images/left-menu-arrow.png) no-repeat right 24px;
 }
 
 .pane-library_portal .menu li.leaf a:hover, .pane-library_portal .menu li.leaf a.active,
@@ -620,7 +620,7 @@ ul.menu li.collapsed {
   color:#eb8b03;
   text-decoration:none !important;
   font-weight:bold;
-  background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
+  background: transparent url(../images/left-menu-arrow.png) no-repeat right -60px;
 }
 
 .panel-pane .node-teaser .content {
@@ -641,13 +641,13 @@ ul.menu li.collapsed {
 
 .ding-box-pane .pane-title * { text-transform: none; font-weight: bold; }
 /* Sliding doors GFX */  
-.ding-box-pane .panel-pane { background: transparent url(images/ding-box-sprites.png) left bottom no-repeat; margin: 0; }
-.ding-box-pane .pane-title { background: transparent url(images/ding-box-sprites.png) left top no-repeat; padding-left: 7px; }
-.ding-box-pane .pane-title > * { background: transparent url(images/ding-box-sprites.png) right top no-repeat; padding-right: 7px; }
-.ding-box-pane .pane-content { background: transparent url(images/ding-box-sprites.png) right bottom no-repeat; margin-left: 7px; padding: 0 7px 7px 0; }
+.ding-box-pane .panel-pane { background: transparent url(../images/ding-box-sprites.png) left bottom no-repeat; margin: 0; }
+.ding-box-pane .pane-title { background: transparent url(../images/ding-box-sprites.png) left top no-repeat; padding-left: 7px; }
+.ding-box-pane .pane-title > * { background: transparent url(../images/ding-box-sprites.png) right top no-repeat; padding-right: 7px; }
+.ding-box-pane .pane-content { background: transparent url(../images/ding-box-sprites.png) right bottom no-repeat; margin-left: 7px; padding: 0 7px 7px 0; }
 /* Variants */
-.ding-box-pane-black .pane-title > * { background: transparent url(images/ding-box-header-sprites.png) right top no-repeat; color: #fff; }
-.ding-box-pane-white .pane-title > * { background: transparent url(images/ding-box-header-sprites.png) right bottom no-repeat; color: #000; }
+.ding-box-pane-black .pane-title > * { background: transparent url(../images/ding-box-header-sprites.png) right top no-repeat; color: #fff; }
+.ding-box-pane-white .pane-title > * { background: transparent url(../images/ding-box-header-sprites.png) right bottom no-repeat; color: #000; }
 
 .ding-box-pane .field-ting-refs { padding: 0; }
 .ding-box-pane .field-ting-refs h3 { text-transform: none; font-size: 14px; margin-bottom: 14px; }
@@ -684,7 +684,7 @@ ul.primary li.active a { color: #F28101; }
   color:#000;  
   border-bottom:1px solid #f1eeee;
   font-size:11px;
-  background: transparent url(images/left-menu-arrow.png) no-repeat right 24px;
+  background: transparent url(../images/left-menu-arrow.png) no-repeat right 24px;
   text-transform:none;
   float:none;
 }
@@ -692,7 +692,7 @@ ul.primary li.active a { color: #F28101; }
   color:#eb8b03;
   text-decoration:none !important;
   font-weight:normal;
-  background: transparent url(images/left-menu-arrow.png) no-repeat right -60px;
+  background: transparent url(../images/left-menu-arrow.png) no-repeat right -60px;
 }
 body.ding-arrangementer .panel-threecol-left-stacked-right .panel-left {
   width:180px;
@@ -735,10 +735,10 @@ body.page-arrangementer .panel-middle{
   display:none;
 }
 #event-list li .calendar-leafs .leaf{
-  background: transparent url(images/bg-calendar.png) no-repeat 0 0 !important;
+  background: transparent url(../images/bg-calendar.png) no-repeat 0 0 !important;
 }
 #event-list li .calendar-leafs .leaf.today {
-  background: transparent url(images/bg-calendar.png) no-repeat 0 -64px !important;
+  background: transparent url(../images/bg-calendar.png) no-repeat 0 -64px !important;
 }
 
 #event-list li div.leaf .month{
@@ -832,7 +832,7 @@ body.page-arrangementer .panel-middle{
   display:block;
   width:193px;
   height:55px;
-  background:transparent url(images/dit-born.png);
+  background:transparent url(../images/dit-born.png);
   text-indent:-999em;
   margin-top:-8px;
 }
