@@ -83,7 +83,7 @@
               </div>
             </div>
 
-            <?php print $breadcrumb; ?>
+            
           </div>
         </div>
         
@@ -98,6 +98,7 @@
 
           	<div id="content">
               <div id="content-inner">
+              	<?php print $breadcrumb; ?>
 
 								<?php
 									/*if were in the user pages add the tabs in the top*/

@@ -9,8 +9,7 @@ function kolding_ting_search_form($form){
   
 	$form['submit']['#type'] 	= "image_button" ;
 	$form['submit']['#src'] 	= drupal_get_path('theme','kolding')."/images/search-btn.png";
-	$form['submit']['#attributes']['class'] 	= "";
-	//$form['submit']['#prefix'] = '<select id="search_type"><option>vælg materiale</option><option value="bog">bøger</option><option value="cd">musik</option></select>';
+	$form['submit']['#attributes']['class'] = "";
 	
 
 	return drupal_render($form);	
