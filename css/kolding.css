@@ -10,6 +10,12 @@ a:link, a:visited, a:active,
   
   color:#003399;
 }
+
+.view .name {
+  font-size: 11px;
+}
+
+
 .pane-kolding_article_list-panel_pane_3 .view-node a{
   color: #f28101;
 }
