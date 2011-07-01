@@ -10,6 +10,12 @@ a:link, a:visited, a:active,
   
   color:#003399;
 }
+
+.view .name {
+  font-size: 11px;
+}
+
+
 .pane-kolding_article_list-panel_pane_3 .view-node a{
   color: #f28101;
 }
@@ -703,12 +709,13 @@ ul.menu li.collapsed {
  * Tabs
  */
 ul.primary { padding-top: 6px; padding-left: 2px; }
-ul.primary li a { padding: 5px 10px 0; background: #EBEBEB; }
+ul.primary li a { padding: 5px 10px 0; background: #F7F7F7; }
 ul.primary li.active a { color: #F28101; }
 
 /* Show the tab pane instead of the basic tabs on the wiki frontpage */
 .page-wiki .tabs { display: none; }
-.page-wiki .pane-page_tabs .tabs { display: block; overflow: hidden; padding-top: 1px; }
+.page-wiki .pane-page_tabs { overflow: hidden; }
+.page-wiki .pane-page_tabs .tabs { display: block; }
 
 /**
  * arrangementer side
