@@ -627,17 +627,6 @@ ul.pager li a {
   background:transparent none;
   padding:0px;
 }
-#content #content-inner{
-  position:relative;
-}
-
-#content .addthis_toolbox{
-  position:absolute;
-  right:0px;
-  width:200px;
-  top:0px;
-  padding:10px 0;
-}
 body.node-type-page .addthisCon .addthis_toolbox{
   /*top:-46px;*/
 }
@@ -896,9 +885,22 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
   width:475px;
 }
 
+/* AddThis */
 
+#content #content-inner{
+  position:relative;
+}
 
-
+#content .addthis_toolbox{
+  position:absolute;
+  right:0px;
+  width:206px;
+  top:0px;
+  padding:10px 0;
+}
+#content .addthis_toolbox .at15t_facebook {
+  margin-right: 4px;
+}
 
 /* ting objet result */
 

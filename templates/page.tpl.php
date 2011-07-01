@@ -89,7 +89,6 @@
         
         <div id="pagebody" class="clearfix">
           <div id="pagebody-inner" class="clearfix">
-
             <?php if ($left) { ?>
               <div id="content-left">
                 <?php print $left; ?>
@@ -99,6 +98,13 @@
           	<div id="content">
               <div id="content-inner">
               	<?php print $breadcrumb; ?>
+
+               <?php if (!$is_front) {
+                       print theme('addthis_toolbox', NULL, array(
+                                    'url' => url($_GET['q'], array('absolute' => TRUE)),
+                                    'title' => $head_title
+                       ));
+                     } ?>
 
 								<?php
 									/*if were in the user pages add the tabs in the top*/

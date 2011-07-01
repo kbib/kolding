@@ -57,17 +57,6 @@ if ($page == 0){ ?>
 </div>
 <?php } else { ?>
 
-<!-- AddThis Button BEGIN -->
-<div class="addthisCon">
-<div class="addthis_toolbox addthis_default_style ">
-<a class="addthis_button_preferred_1">Del på Facebook</a>
-<span class="addthis_separator">|</span>
-<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4df767a47e21e028" class="addthis_button_compact">Del</a>
-
-</div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4df767a47e21e028"></script>
-</div>
-<!-- AddThis Button END -->
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 
 <?php if($node->field_top_image): ?>
