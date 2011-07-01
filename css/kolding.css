@@ -703,7 +703,8 @@ ul.menu li.collapsed {
 .ding-box-pane .field-ting-refs h3 { text-transform: none; font-size: 14px; margin-bottom: 14px; }
 .ding-box-pane .field-ting-refs .types ul,
 .ding-box-pane .field-ting-refs .subjects ul { padding-top: 0; }
-.ding-box-pane .view .feed-icon { float: none; }
+.ding-box-pane .view .feed-icon { float: none; text-align: right; }
+.ding-box-pane .view .feed-icon span { top: -8px; }
 
 /**
  * Tabs
