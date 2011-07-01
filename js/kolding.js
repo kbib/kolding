@@ -18,7 +18,8 @@ jQuery(function($) {
   $("#flap").stickySidebar();
 
   $('.select-type-field').selectmenu({
-	  'width' : '180',
+	  'width' : '179',
+	  'style' : 'dropdown'
   });
 
 	if($(window).width() < (1281)){

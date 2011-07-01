@@ -507,12 +507,25 @@ body.no-sidebars #content {
   color:#646464 !important;
   
 }
+.ui-selectmenu-open{
+	border:1px solid #cecece;
+}
+.ui-selectmenu-menu li{
+	padding:0 !important;
+}
 .ui-selectmenu-menu li a{
+	display:block;
+	padding:3px !important;
+	height:auto !important;
   background:#fff;
   border:0;
 }
+.ui-selectmenu-menu li a:hover{
+	background:#cecece;
+}
 .ui-selectmenu:hover {
   text-decoration:none !important;
+  
 }
 #ting-search-form .form-image-button {
   margin:0 0 0 6px;
@@ -524,9 +537,9 @@ body.no-sidebars #content {
 .ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
 .ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; }
 .ui-selectmenu-open { visibility: visible; }
-.ui-selectmenu-menu-popup { margin-top: -1px; }
-.ui-selectmenu-menu-dropdown { }
-.ui-selectmenu-menu li {width:150px; padding:0; margin:0; display: block; border:0 none;padding: 8px 0 0 4px; background:#fff; }
+.ui-selectmenu-menu-popup { margin-top: 0; }
+.ui-selectmenu-menu-dropdown { margin-top:6px; }
+.ui-selectmenu-menu li {width:153px; padding:0; margin:0; display: block; border:0 none;padding: 8px 0 0 4px; background:#fff; }
 .ui-selectmenu-menu li a,.ui-selectmenu-status {color:#646464; text-decoration:none !important;height:22px;line-height: 1.4em; display:block; padding:0; outline:none; text-decoration:none; }
 .ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
 .ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
@@ -920,4 +933,9 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
 
 .field-ting-refs, .field-ting-refs div.record{
 	width: auto;
+}
+
+
+body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first {
+	font-size:11px;
 }

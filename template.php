@@ -19,7 +19,7 @@ function kolding_ting_search_form($form){
  * Preprocess variables for the page template.
  */
 function kolding_preprocess_page(&$variables){
-  $variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>', array('html' => true, 'attributes' => array('class' => 'rsslink	')));
+  $variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>', array('html' => true, 'attributes' => array('class' => 'rsslink')));
 }
 
 /**
