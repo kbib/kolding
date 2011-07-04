@@ -869,6 +869,14 @@ body.page-arrangementer .panel-middle{
 .ding-wiki-gallery .ding-wiki-carousel .count,
 .ding-wiki-gallery .ding-wiki-carousel .controls a { color: #f28101; }
 
+/* Wiki subpages */
+
+/* Wiki page create page */
+
+#ding-wiki-page-form .form-ting-reference .form-item-textarea {
+  display: none; /* We do not show form elements for entering descriptions of ting references in the public facing theme */
+} 
+
 .born{
   position:absolute;
   right:0;
