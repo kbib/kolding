@@ -627,17 +627,6 @@ ul.pager li a {
   background:transparent none;
   padding:0px;
 }
-#content #content-inner{
-  position:relative;
-}
-
-#content .addthis_toolbox{
-  position:absolute;
-  right:0px;
-  width:200px;
-  top:0px;
-  padding:10px 0;
-}
 body.node-type-page .addthisCon .addthis_toolbox{
   /*top:-46px;*/
 }
@@ -703,7 +692,8 @@ ul.menu li.collapsed {
 .ding-box-pane .field-ting-refs h3 { text-transform: none; font-size: 14px; margin-bottom: 14px; }
 .ding-box-pane .field-ting-refs .types ul,
 .ding-box-pane .field-ting-refs .subjects ul { padding-top: 0; }
-.ding-box-pane .view .feed-icon { float: none; }
+.ding-box-pane .view .feed-icon { float: none; text-align: right; }
+.ding-box-pane .view .feed-icon span { top: -8px; }
 
 /**
  * Tabs
@@ -879,6 +869,14 @@ body.page-arrangementer .panel-middle{
 .ding-wiki-gallery .ding-wiki-carousel .count,
 .ding-wiki-gallery .ding-wiki-carousel .controls a { color: #f28101; }
 
+/* Wiki subpages */
+
+/* Wiki page create page */
+
+#ding-wiki-page-form .form-ting-reference .form-item-textarea {
+  display: none; /* We do not show form elements for entering descriptions of ting references in the public facing theme */
+} 
+
 .born{
   position:absolute;
   right:0;
@@ -895,9 +893,22 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
   width:475px;
 }
 
+/* AddThis */
 
+#content #content-inner{
+  position:relative;
+}
 
-
+#content .addthis_toolbox{
+  position:absolute;
+  right:0px;
+  width:206px;
+  top:0px;
+  padding:10px 0;
+}
+#content .addthis_toolbox .at15t_facebook {
+  margin-right: 4px;
+}
 
 /* ting objet result */
 
