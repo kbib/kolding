@@ -712,8 +712,18 @@ ul.primary li.active a { color: #F28101; }
 /**
  * arrangementer side
  */
+.page-ting #ting-object .tab-navigation{
+  width:200px !important;
+}
+.page-ting #ting-object .tab-navigation ul{
+  padding-right:10px;
+}
+.page-ting #ting-object .tab-navigation .item-list li{
+  float:none;
+}
 
  .page-ting #ting-object .tab-navigation .item-list li, .page-arrangementer .pane-categories .item-list li{
+  
   border:0 none;
   background:transparent none;
   padding:0;
