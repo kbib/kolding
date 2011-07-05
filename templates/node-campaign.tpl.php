@@ -17,7 +17,7 @@ if ($node->campaign_type == "image-only"): ?>
 		<div class="campaign-inner">
 			<div class="campaign-type-<?php print $node->campaign_type;?>">
 				
-					<?php print filter_xss($node->content['body']['#value']); ?>
+					<?php print $node->content['body']['#value']; ?>
 				
 			</div>
 		</div>
