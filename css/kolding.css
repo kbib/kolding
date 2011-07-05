@@ -130,6 +130,8 @@ body.logged-in {
 }
 #pagefooter {
 	background: transparent url(../images/footer-ribbon.png) repeat-x center top;
+  color:#000;
+  font-size:11px;
   
 }
 #bubbles {
@@ -716,7 +718,7 @@ ul.primary li.active a { color: #F28101; }
   background:transparent none;
   padding:0;
   margin:0;
-  padding-left:10px;
+  padding-left:15px;
 }
 
  .page-ting #ting-object .tab-navigation .item-list li a, .page-arrangementer .pane-categories .item-list li a{
@@ -736,17 +738,18 @@ ul.primary li.active a { color: #F28101; }
   background: transparent url(../images/left-menu-arrow.png) no-repeat right -60px;
 }
 body.ding-arrangementer .panel-threecol-left-stacked-right .panel-left {
-  width:180px;
+  width:190px;
 } 
 body.page-arrangementer .panel-middle{
   width:500px;
 }
 .tab-navigation, .page-arrangementer .panel-left ul, .ding-arrangementer .panel-left ul, .ding-ting-collection .panel-left ul .tab-navigation ul {
-  width:180px;
+  width:180px !important;
+  padding-right:10px;
 }
 
 .tab-navigation ul.item-list li, .page-arrangementer .panel-left ul li, .ding-arrangementer .panel-left ul li, .ding-ting-collection .panel-left ul li, .tab-navigation ul li {
-  width:156px;
+  width:auto;
 }
 
 .pane-tagadelic-2 {
@@ -890,7 +893,7 @@ body.page-arrangementer .panel-middle{
 
 
 body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .tab-navigation-main{
-  width:475px;
+  width:465px;
 }
 
 /* AddThis */
