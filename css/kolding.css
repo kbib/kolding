@@ -858,7 +858,9 @@ body.page-arrangementer .panel-middle{
 
 
 /** Wiki frontpage **/
-
+.panels-flexible-wiki_frontpage {
+  padding-top: 30px; /* Wiki frontpage spacing should match other layouts */
+}
 .panels-flexible-column-wiki_frontpage-9{
   width:180px;
 }
