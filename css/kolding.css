@@ -672,6 +672,7 @@ ul.pager li a {
 .content-top{
   background:transparent none;
   padding:0px;
+  position: static;
 }
 body.node-type-page .addthisCon .addthis_toolbox{
   /*top:-46px;*/
@@ -969,17 +970,36 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
   margin-right: 4px;
 }
 
-/* ting objet result */
+/* ting object result */
 
- .ting-overview .right-column{
+.ting-overview .right-column{
    width:250px;
- }
+}
 .object-information{
   width:430px;
 }
 
+body.ding-ting-object .ding-box-wide, 
+body.ding-ting-collection .ding-box-wide {
+  width: 465px;
+}
 
+body.ding-ting-object .ting-availability, 
+body.ding-ting-collection .ting-availability {
+  position: relative;
+  left: -7px;
+}
 
+body.ding-ting-object .pane-recommendation_list, 
+body.ding-ting-collection .pane-recommendation_list {
+  margin-left: 213px; /* Make recommendations appear in same colum as main content */
+}
+.pane-recommendation_list ul.ting-recommendation {
+  padding-top: 4px;
+}
+.pane-recommendation_list ul.ting-recommendation li {
+  margin: 0;
+}
 
 /**
  * 	styling right column
