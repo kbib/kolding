@@ -1001,6 +1001,14 @@ body.ding-ting-collection .pane-recommendation_list {
   margin: 0;
 }
 
+/** 
+ * Login page 
+ * This page uses the default layout so we fake the columns
+ */
+body.user-login #content-main {
+  margin: 30px 0 0 200px;
+}
+
 /**
  * 	styling right column
  */
