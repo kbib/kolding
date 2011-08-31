@@ -175,7 +175,7 @@ body #account-profile .cart a {
 }
 #user-login-form {
   background: transparent none; /*url(../images/logind.png) no-repeat scroll 0 0;*/
-  margin:0;
+  margin:2px 0 0;
   padding:0;
 }
 #user-login-form label {
