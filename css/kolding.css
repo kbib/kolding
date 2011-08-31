@@ -162,10 +162,12 @@ body #account-profile .cart a {
   border:0 none;
   padding: 4px 0 1px 5px;
 }
-#user-login-form #edit-pass-wrapper {
+#user-login-form #edit-pass-wrapper,
+#user-login-form #edit-pass-1-wrapper {
   width:160px;
 }
-#user-login-form #edit-pass-wrapper input {
+#user-login-form #edit-pass-wrapper input,
+#user-login-form #edit-pass-1-wrapper input {
   width:160px;
 }
 #user-login-form .form-image-button {
@@ -183,8 +185,7 @@ body #account-profile .cart a {
   color:#666666;
   font-weight:normal;
 }
-#user-login-form #edit-name-wrapper input,
-#user-login-form #edit-pass-wrapper input{
+#user-login-form .form-item-password input{
   padding: 3px 0 3px 3px;
 }
 #user-login-form .form-image-button {
@@ -970,7 +971,7 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
   margin-right: 4px;
 }
 
-/* ting object result */
+/* Ting collections and objects  */
 
 .ting-overview .right-column{
    width:250px;
