@@ -58,18 +58,12 @@ body.logged-in {
  * User account area
  */
 #account {
-  /*position:absolute;*/
-  /*right:0;*/
-  /*top:64px;*/
-  /*margin:0;*/
  position:relative;
- margin-left:20px;
+ margin-left:18px;
  margin-top:-4px;
- width:218px;
- height:auto;
- 
+ width:220px;
+ height:auto; 
  color:#000 !important;
-  
 }
 #account h5, 
 #account a{
