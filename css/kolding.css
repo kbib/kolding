@@ -518,8 +518,10 @@ body.no-sidebars #content {
 .jcarousel-skin-ting-search-carousel .jcarousel-prev-horizontal {
   left:-254px;
 }
-.ting-search-carousel .search-results .creator, .ting-search-carousel .search-results .title {
-  display:none;
+.ting-search-carousel .search-results a,
+.ting-search-carousel .search-results .creator, 
+.ting-search-carousel .search-results .title {
+  color: #000;
 }
 
 
