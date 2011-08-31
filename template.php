@@ -1,18 +1,20 @@
 <?php
 
+/**
+ * Override theme_ting_search_form().
+ */
 function kolding_ting_search_form($form){
-  
   jquery_ui_add('ui.dialog');
   jquery_ui_theme_load();
   drupal_add_js(drupal_get_path('theme', 'kolding').'/js/selectmenu.js', 'module', 'footer', TRUE);
-  
-  
+
 	$form['submit']['#type'] 	= "image_button" ;
 	$form['submit']['#src'] 	= drupal_get_path('theme','kolding')."/images/search-btn.png";
 	$form['submit']['#attributes']['class'] = "";
-	
 
-	return drupal_render($form);	
+	return drupal_render($form);
+}
+
 }
 
 /**
@@ -69,10 +71,10 @@ function kolding_panels_pane($content, $pane, $display) {
       // Support translation of panel panes.
       // Inspired by http://drupal.org/node/568740#comment-3479074.
       $content->title = t($content->title);
-      
+
       // Added title wrapper to support sliding doors in both directions.
       $output .= '<div class="pane-title">'."\n";
-      
+
       if($pane->subtype == "event_list-panel_pane_1"  OR $pane->subtype == "recommendation_list"){
         $output .= "<h1>$content->title</h1>\n";
       }
@@ -87,14 +89,14 @@ function kolding_panels_pane($content, $pane, $display) {
       else {
         $output .= "<h3>$content->title</h3>\n";
       }
-      
+
       // End title wrapper
       $output .= '</div>'."\n";
     }
-    
+
     // Added content wrapper to support sliding doors in both directions
     $output .= '<div class="pane-content">'."\n";
-    
+
     if (!empty($content->feeds)) {
       $output .= "<div class=\"feed\">" . implode(' ', $content->feeds) . "</div>\n";
     }
@@ -117,7 +119,7 @@ function kolding_panels_pane($content, $pane, $display) {
 
     // End content wrapper
     $output .= '</div>'."\n";
-    
+
     $output .= "</div>\n";
     return $output;
   }
