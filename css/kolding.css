@@ -663,7 +663,12 @@ body.no-sidebars #content {
 ul.pager li a {
   color:#003399;
 }
-.panel-twocol-left-stacked .content-left, body.node-type-page .panel-threecol-left-stacked-right .content-left {
+.panel-threecol-left-stacked-right,
+.panel-twocol-left-stacked{
+  padding-top:30px;
+}
+.panel-twocol-left-stacked .content-left, 
+body.node-type-page .panel-threecol-left-stacked-right .content-left {
   width:675px;
 }
 .content-top{
@@ -671,15 +676,8 @@ ul.pager li a {
   padding:0px;
   position: static;
 }
-body.node-type-page .addthisCon .addthis_toolbox{
-  /*top:-46px;*/
-}
 .content-right{
   padding-top:0px;
-}
-.panel-threecol-left-stacked-right,
-.panel-twocol-left-stacked{
-  padding-top:30px;
 }
 
 ul.menu li.expanded,
@@ -854,8 +852,11 @@ body.page-arrangementer .panel-middle{
   margin:0 0 0 10px;
 }
 
+/**
+ * Wiki
+ */
 
-/** Wiki frontpage **/
+/* Wiki frontpage */
 .panels-flexible-wiki_frontpage {
   padding-top: 30px; /* Wiki frontpage spacing should match other layouts */
 }
