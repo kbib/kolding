@@ -1008,6 +1008,24 @@ body.user-login #content-main {
 }
 
 /**
+ * User edit page
+ * This page uses the default layout so we fake columns and spacing
+ */
+body.page-user .tabs { 
+  margin-left: 15px;
+}
+body.page-user .content-left {
+  width: 660px;
+  margin-left: 15px;
+}
+body.user-edit #content-main {
+  margin: 0 15px;
+}
+body.user-edit #content-main form {
+  padding-bottom: 15px;
+}
+
+/**
  * 	styling right column
  */
 
