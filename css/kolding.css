@@ -1018,11 +1018,37 @@ body.page-user .content-left {
   width: 660px;
   margin-left: 15px;
 }
+body.page-user .content-left .panel-left {
+  width: auto;
+}
 body.user-edit #content-main {
   margin: 0 15px;
 }
 body.user-edit #content-main form {
   padding-bottom: 15px;
+}
+
+/**
+ * Library list
+ */
+body.page-biblioteker .panel-twocol-left-stacked .content-left {
+  width: 660px;
+  margin-left: 15px;
+}
+body.page-biblioteker .panel-left .view ul li {
+  padding-left: 0; 
+}
+.panel-left .view-library-list {
+  width: auto;
+}
+.panel-left .view-library-list .node-teaser-library {
+  width: auto;
+}
+.panel-left .view-library-list .node-teaser-library .content {
+  width: 353px;
+}
+.ding-library-map {
+  width: 668px;
 }
 
 /**
