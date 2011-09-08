@@ -22,24 +22,19 @@ jQuery(function($) {
 	  'style' : 'dropdown'
   });
 
-	if($(window).width() < (1281)){
-		$('#page-inner').css({'margin':'0','left':'0'});
-	}else if($(window).width() > (1500)){
-		$('#page-inner').css({'left':'0'});
-	}
-	else{
-		$('#page-inner').css({'margin':'0 auto','left':'-120px'});
-	}
+  Drupal.kolding.pageWidth();
+  $(window).resize(Drupal.kolding.pageWidth);
 
-  $(window).resize(function(){
-    if($(window).width() < (1281)){
-      $('#page-inner').css({'margin':'0','left':'0'});
-    }else if($(window).width() > (1500)){
-      $('#page-inner').css({'left':'0'});
-    }
-    else{
-      $('#page-inner').css({'margin':'0 auto','left':'-120px'});
-    }
-  });
 });
 
+Drupal.kolding = {};
+Drupal.kolding.pageWidth = function() {
+  var width = $(window).width();
+  if (width > 1280) {
+    $('body').removeClass('kolding-narrow').addClass('kolding-wide');
+  } else if (width <= 1024) {
+    $('body').removeClass('kolding-wide').addClass('kolding-narrow');    
+  } else {
+    $('body').removeClass('kolding-narrow').removeClass('kolding-wide');
+  }
+};
