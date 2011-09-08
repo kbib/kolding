@@ -609,6 +609,13 @@ body.no-sidebars #content {
 .panel-threecol-33-34-33-stacked .panel-left {
   background: transparent none;
 }
+.node-type-event .panel-twocol-left-stacked .content-left {
+  margin-left:15px;
+}
+.node-type-event .panel-twocol-left-stacked .content-left {
+  width: 660px;
+} 
+
 .panel-middle .pane-event_list-panel_pane_4{
   margin-right:20px;
 }  
@@ -1142,3 +1149,4 @@ body.page-biblioteker .panel-left .view ul li {
 .kolding-narrow #flapContainer {
   display: none;
 }
+
