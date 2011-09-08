@@ -852,6 +852,28 @@ body.page-arrangementer .panel-middle{
   margin:0 0 0 10px;
 }
 
+
+/**
+ *   content
+ */
+
+.pane-content h3,
+.pane-content h3 {
+  color: #333;
+  font-weight: bold;
+}
+.pane-content h3 {
+  font-size: 12px;
+  padding-top: 18px;
+  /* Verdana 12, bold, padding/margin top: 18px, Tekstfarve: #333333 */
+ 
+}
+
+.pane-content h4 {
+  font-size: 11px;
+  padding-top: 6px;
+  /* Verdana 11, bold, padding/margin top: 6px, Tekstfarve: #333333 */
+}
 /**
  * Wiki
  */
