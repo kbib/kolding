@@ -140,3 +140,25 @@ function kolding_panels_pane($content, $pane, $display) {
     return $output;
   }
 }
+
+/**
+ * Override theming for the availability box.
+ *
+ * Add additional wrappers to mirror Kolding panels output and support sliding doors.
+ */
+function kolding_ting_availability_box($object) {
+  return '<div class="ding-box-pane">' .
+            '<div class="panel-pane ding-box-wide ting-availability">' .
+              '<div class="pane-title">' .
+      					'<h3>' .
+                  t('%title is available at the following libraries:', array('%title' => check_plain($object->title))) .
+                '</h3>' .
+              '</div>' .
+              '<div class="pane-content">' .
+              	'<ul class="library-list">' .
+                  '<li class="ting-status waiting even">' . t('waiting for data') .'</li>' .
+                '</ul>' .
+              '</div>' .
+         		'</div>' .
+         '</div>';
+}
