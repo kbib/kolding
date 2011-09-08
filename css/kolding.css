@@ -32,6 +32,7 @@ body.logged-in {
 /*	margin-top: 2px; */
 }
 #pageheader {
+  width: 994px;
 	background: transparent;
 }
 #site-name { /* Kolding logo */
@@ -236,10 +237,13 @@ body #account-profile .cart a {
   z-index:-1;
 }
 #pagefooter-inner {
-	background:transparent none;
+ background:transparent none;
  width:920px;
  padding:0;
- margin:0 auto;
+ position: relative;
+}
+#pagefooter-inner .first {
+  margin-left: 36px;
 }
 #pagefooter-inner div.left {
   width:190px;
@@ -252,7 +256,9 @@ body #account-profile .cart a {
 }
 
 #pagefooter-inner .icons{
-  float:right;
+  position: absolute;
+  bottom: 20px;
+  right: 319px;
 }
 #pagefooter-inner .icons a{
   display:block;
@@ -292,16 +298,6 @@ div.notice.soon {
 	margin: 0;
 }
 
-
-#page-inner{
-	width:994px;
-	margin: 0 auto;
-  position:relative;
-}
-
-#page-inner{
-	/* overflow:hidden;  why? */
-}
 #pageheader-inner{
   position:relative;
   margin: 0 36px;
@@ -462,43 +458,6 @@ body.no-sidebars #content {
   margin-left:235px;
   width:675px;
 }
-
-#flapContainer{
-  position:absolute;
-  width:0;
-  right:-20px;
-  top:208px;
-}
-
-#flap{
-  /*position:fixed;
-  top:200px;*/
-  width:225px;
-}
-#flap .block:first-child{
-  background: #eb8b03 url(../images/flap-box-gradient.png) repeat-x top left;
-  padding:10px;
-  border-radius:5px;
-  margin-bottom:20px;
-  color:#fff;
-}
-#flap .block:first-child h3{
-  color:#fff;
-}
-
-#flap #block-views-library-list-block-1{
-  background:#fff;
-  padding:10px;
-  border-radius:5px;
-}
-#flap .view-library-list li{
-  margin-bottom:20px;
-  color:#000;
-}
-#flap .view-library-list .title a{
-  font-weight:bold;
-  color:#000;
-} 
 
 .ting-search-carousel {
   left:0;
@@ -851,7 +810,14 @@ body.page-arrangementer .panel-middle{
   /*clear:none;*/
   margin:0 0 0 10px;
 }
+.field-ting-refs, .field-ting-refs div.record{
+  width: auto;
+}
 
+
+body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first {
+  font-size:11px;
+}
 
 /**
  *   content
@@ -874,6 +840,8 @@ body.page-arrangementer .panel-middle{
   padding-top: 6px;
   /* Verdana 11, bold, padding/margin top: 6px, Tekstfarve: #333333 */
 }
+
+
 /**
  * Wiki
  */
@@ -949,7 +917,12 @@ body.page-arrangementer .panel-middle{
 .ding-wiki-gallery .ding-wiki-carousel .count,
 .ding-wiki-gallery .ding-wiki-carousel .controls a { color: #f28101; }
 
+body.page-wiki .field-wiki-images .more { margin-bottom: 10px; }
+
 /* Wiki subpages */
+
+/* Wiki page */
+body.node-type-wiki-page .pane-field_wiki_images { margin-right: 20px; }
 
 /* Wiki page create page */
 
@@ -1074,7 +1047,7 @@ body.page-biblioteker .panel-left .view ul li {
 }
 
 /**
- * 	styling right column
+ * Campagins
  */
 
 .campaign-box{
@@ -1109,11 +1082,63 @@ body.page-biblioteker .panel-left .view ul li {
 	background: transparent url(../images/ding-box-header-sprites.png) no-repeat top right;
 }
 
-.field-ting-refs, .field-ting-refs div.record{
-	width: auto;
+/**
+ * Flap (floating container right of content)
+ */
+#flapContainer{
+  position:absolute;
+  width:0;
+  left: 994px;
+  top:208px;
 }
 
+#flap{
+  /* Javascript may try to set the width of the box. Do not allow this! */
+  width:225px !important;
+}
+#flap .block:first-child{
+  background: #eb8b03 url(../images/flap-box-gradient.png) repeat-x top left;
+  padding:10px;
+  border-radius:5px;
+  margin-bottom:20px;
+  color:#fff;
+}
+#flap .block:first-child h3{
+  color:#fff;
+}
 
-body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.navwide, #pager div.nav, ul.pager li, ul.pager li.pager-next, ul.pager li.pager-item, ul.pager li.pager-last, ul.pager li.pager-previous, ul.pager li.pager-first, .panel-left ul.pager li.pager-first {
-	font-size:11px;
+#flap #block-views-library-list-block-1{
+  background:#fff;
+  padding:10px;
+  border-radius:5px;
+}
+#flap .view-library-list li{
+  margin-bottom:20px;
+  color:#000;
+}
+#flap .view-library-list .title a{
+  font-weight:bold;
+  color:#000;
+} 
+
+
+/**
+ * Layout switching for wide and narrow layouts
+ */
+/* In wide layouts content including flap should be centered */
+.kolding-wide #page-inner {
+  width:1280px;
+  margin: 0 auto;
+  position: relative;
+}
+.kolding-wide #pagefooter-inner {
+  width:1280px;
+  margin: 0 auto;  
+}
+.kolding-wide #pagefooter-inner {
+   margin:0 auto;
+}
+/* Do not show the flap in narrow layouts. There is no room for it. */
+.kolding-narrow #flapContainer {
+  display: none;
 }
