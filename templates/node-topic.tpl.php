@@ -95,10 +95,16 @@ if ($page == 0){ ?>
 
 
   <?php if ($similarterms) { ?>
-    <div class="ding-box-wide similar">
-      <h3><?php print t('Similar'); ?></h3>
-      <?php print $similarterms; ?>
-    </div>
+    <div class="ding-box-pane">
+      <div class="panel-pane ding-box-wide similar">
+        <div class="pane-title">
+          <h3><?php print t('Similar'); ?></h3>
+        </div>
+        <div class="pane-content">
+          <?php print $similarterms; ?>
+        </div>
+      </div>
+   </div>
   <?php } ?>
 
 </div>

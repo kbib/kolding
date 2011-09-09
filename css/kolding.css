@@ -686,7 +686,7 @@ ul.menu li.collapsed {
 }
 .ding-box-pane .pane-content h3 { padding: 0; }
 
-.ding-box-pane .pane-title * { text-transform: none; font-weight: bold; }
+.ding-box-pane .pane-title > * { display: block; height: auto; padding: 7px 0 0 12px; margin: 0; color: #333; font-size: 11px; font-weight: bold; line-height: 20px; text-transform: none; }
 /* Sliding doors GFX */  
 .ding-box-pane .panel-pane { background: transparent url(../images/ding-box-sprites.png) left bottom no-repeat; margin: 0; }
 .ding-box-pane .pane-title { background: transparent url(../images/ding-box-sprites.png) left top no-repeat; padding-left: 7px; }
@@ -702,6 +702,8 @@ ul.menu li.collapsed {
 .ding-box-pane .field-ting-refs .subjects ul { padding-top: 0; }
 .ding-box-pane .view .feed-icon { float: none; text-align: right; }
 .ding-box-pane .view .feed-icon span { top: -8px; }
+
+.ding-box-pane .ding-box-wide { width: auto; }
 
 /**
  * Tabs
