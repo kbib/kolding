@@ -622,6 +622,8 @@ body.no-sidebars #content {
 #event-list h3 {
   background:#000;
   color:#fff;
+  margin-left: 0;
+  padding-left: 20px;
 }
 #event-list li .calendar-leafs .info{
   width:130px;
@@ -629,6 +631,7 @@ body.no-sidebars #content {
 ul.pager li a {
   color:#003399;
 }
+.panel-threecol-left-stacked,
 .panel-threecol-left-stacked-right,
 .panel-twocol-left-stacked{
   padding-top:30px;
@@ -1063,6 +1066,27 @@ body.page-biblioteker .panel-left .view ul li {
 /**
  * Library pages
  */
+body.node-type-library .content-left {
+  width: 660px;
+  margin-left: 15px;
+  overflow: hidden;
+} 
+body.node-type-library .panel-left {
+  overflow: hidden;
+  width: 430px;
+}
+body.node-type-library .panel-left .view-article-list ul li {
+  padding-left: 0;
+}
+body.node-type-library .panel-left .view-article-list {
+  width: auto;
+}
+body.node-type-library .panel-left .view-article-list .feed-icon {
+  float: none;
+  padding-right: 10px;
+  text-align: right;
+}
+
 .library-info-inner {
   background-image: url(../images/sprite-box.png);
 } 
