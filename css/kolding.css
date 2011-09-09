@@ -1061,6 +1061,13 @@ body.page-biblioteker .panel-left .view ul li {
 }
 
 /**
+ * Library pages
+ */
+.library-info-inner {
+  background-image: url(../images/sprite-box.png);
+} 
+
+/**
  * Campagins
  */
 
