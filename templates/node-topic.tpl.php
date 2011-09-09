@@ -94,7 +94,8 @@ if ($page == 0){ ?>
 	</div>
 
 
-  <?php if ($similarterms) { ?>
+  <?php if ($similarterms) {
+    // Fake  panel pane markup ?>
     <div class="ding-box-pane">
       <div class="panel-pane ding-box-wide similar">
         <div class="pane-title">
