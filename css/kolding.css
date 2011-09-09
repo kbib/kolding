@@ -1068,7 +1068,20 @@ body.page-biblioteker .panel-left .view ul li {
 } 
 
 /**
- * Campagins
+ * Articles
+ */
+body.node-type-article .content-left {
+  /* Create a fake empty left column on article pages */
+  width: 480px;
+  margin-left: 195px;
+}
+body.node-type-article .panel-left {
+  width: auto;
+}
+
+
+/**
+ * Campaigns
  */
 
 .campaign-box{

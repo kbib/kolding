@@ -61,7 +61,7 @@ if ($page == 0){ ?>
 
 <?php if($node->field_top_image[0]): ?>
   <div class="topimage">
-    <?php print  theme('imagecache','mobile-list-image',$node->field_top_image[0]['filepath']);?>
+    <?php print  theme('imagecache','kolding_top_image',$node->field_top_image[0]['filepath']);?>
     <div class="caption"><?php print $node->field_top_image[0]['data']['title']?></div>
   </div>
 <?php endif;?>
