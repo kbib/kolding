@@ -827,11 +827,11 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 }
 
 /**
- *   content
+ * Content - primarily from WYSIWYGs 
  */
 
 .pane-content h3,
-.pane-content h3 {
+.pane-content h4 {
   color: #333;
   font-weight: bold;
 }
