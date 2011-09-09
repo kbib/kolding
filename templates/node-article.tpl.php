@@ -67,18 +67,18 @@ if ($page == 0){ ?>
 <?php endif;?>
 
   <div class="subject">
-    <?php print return_terms_from_vocabulary($node, "1"); ?> 
+    <?php print return_terms_from_vocabulary($node, "1"); ?>
   </div>
 
-	<?php if($node->title){	?>	
+	<?php if($node->title){	?>
 	  <h2><?php print $title;?></h2>
 	<?php } ?>
 
 	<div class="meta">
-	  
-		<?php print format_date($node->created, 'custom', "j F Y") ?> 
-    <i><?php print t('by'); ?></i> 
-		<span class="author"><?php print theme('username', $node); ?></span>	
+
+		<?php print format_date($node->created, 'custom', "j F Y") ?>
+    <i><?php print t('by'); ?></i>
+		<span class="author"><?php print theme('username', $node); ?></span>
 	</div>
 
 	<div class="content">
@@ -88,10 +88,10 @@ if ($page == 0){ ?>
 	<?php if (count($taxonomy)){ ?>
 
 	  <div class="taxonomy">
-   	  <?php print $terms ?> 
-	  </div>  
+   	  <?php print $terms ?>
+	  </div>
 	<?php } ?>
-		
+
 
   <?php if ($similarterms) { ?>
     <div class="ding-box-wide similar">
@@ -106,4 +106,4 @@ if ($page == 0){ ?>
 	<?php } ?>
   <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=193885020659295&amp;xfbml=1"></script><fb:like href="<?php echo url(request_uri(),array('absolute' => true))  ; ?>" send="false" width="450" show_faces="true" font="verdana"></fb:like>
   </div>
-<?php } ?> 
+<?php } ?>

@@ -14,54 +14,54 @@ if ($page == 0){ ?>
   <div class="content">
 
     <div class="subject">
-      <?php print return_terms_from_vocabulary($node, "1"); ?> 
+      <?php print return_terms_from_vocabulary($node, "1"); ?>
     </div>
 
-  	<?php if($node->title){	?>	
+  	<?php if($node->title){	?>
       <h3><?php print l($node->title, 'node/'.$node->nid); ?></h3>
   	<?php } ?>
 
   	<div class="meta">
   		<span class="time">
-  			<?php print format_date($node->created, 'custom', "j F Y") ?> 
-  		</span>	
+  			<?php print format_date($node->created, 'custom', "j F Y") ?>
+  		</span>
   		<span class="author">
   			af <?php print theme('username', $node); ?>
-  		</span>	
+  		</span>
 
 			<?php print $node->field_library_ref[0]['view'];  ?>
 
-			
+
   		<?php if (count($taxonomy)){ ?>
   		  <div class="taxonomy">
-  	   	  <?php print $terms ?> 
-  		  </div>  
+  	   	  <?php print $terms ?>
+  		  </div>
   		<?php } ?>
   	</div>
 
     <?php print $node->content['body']['#value'];?>
-    
+
   </div>
 
 </div>
-<?php }else{ 
+<?php }else{
 //Content
 ?>
 
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix">
 
   <div class="subject">
-    <?php print return_terms_from_vocabulary($node, "1"); ?> 
+    <?php print return_terms_from_vocabulary($node, "1"); ?>
   </div>
 
-	<?php if($node->title){	?>	
+	<?php if($node->title){	?>
 	  <h1><?php print $title;?></h1>
 	<?php } ?>
 
 	<?php if (count($taxonomy)){ ?>
 	  <div class="taxonomy">
-   	  <?php print $terms ?> 
-	  </div>  
+   	  <?php print $terms ?>
+	  </div>
 	<?php } ?>
 
 	<div class="content">

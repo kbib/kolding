@@ -841,7 +841,6 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
   /* Verdana 12, bold, padding/margin top: 18px, Tekstfarve: #333333 */
  
 }
-
 .pane-content h4 {
   font-size: 11px;
   padding-top: 6px;
@@ -1148,4 +1147,3 @@ body.page-biblioteker .panel-left .view ul li {
 .kolding-narrow #flapContainer {
   display: none;
 }
-

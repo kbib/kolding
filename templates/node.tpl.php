@@ -18,40 +18,40 @@ if ($page == 0) { ?>
   <div class="content">
 
     <div class="subject">
-      <?php print return_terms_from_vocabulary($node, "1"); ?> 
+      <?php print return_terms_from_vocabulary($node, "1"); ?>
     </div>
 
-  	<?php if($node->title){	?>	
+  	<?php if($node->title){	?>
       <h3><?php print l($node->title, 'node/'.$node->nid); ?></h3>
   	<?php } ?>
 
   	<div class="meta">
   		<span class="time">
-  			<?php print format_date($node->created, 'custom', "j F Y") ?> 
-  		</span>	
+  			<?php print format_date($node->created, 'custom', "j F Y") ?>
+  		</span>
   		<span class="author">
 				<?php print t('by') . ' ' . theme('username', $node); ?>
-  		</span>	
+  		</span>
 
 			<?php print $node->field_library_ref[0]['view'];  ?>
 
   	</div>
 
     <p>
-		<?php 
+		<?php
 			//field_teaser
 				if($node->field_teaser[0]['value']){
 					print $node->field_teaser[0]['value'];
 				}else{
-					print strip_tags($node->content['body']['#value']);	
+					print strip_tags($node->content['body']['#value']);
 				}
 			?>
 		</p>
 
 		<?php if (count($taxonomy)){ ?>
 		  <div class="taxonomy">
-	   	  <?php print $terms ?> 
-		  </div>  
+	   	  <?php print $terms ?>
+		  </div>
 		<?php } ?>
 
 
@@ -59,7 +59,7 @@ if ($page == 0) { ?>
   </div>
 
 </div>
-<?php }else{ 
+<?php }else{
 //Content
 ?>
 
@@ -75,10 +75,10 @@ if ($page == 0) { ?>
 
 
   <div class="subject">
-    <?php print return_terms_from_vocabulary($node, "1"); ?> 
+    <?php print return_terms_from_vocabulary($node, "1"); ?>
   </div>
 
-	<?php if($node->title){	?>	
+	<?php if($node->title){	?>
 	  <h2><?php print $title;?></h2>
 	<?php } ?>
 
@@ -89,10 +89,10 @@ if ($page == 0) { ?>
 	<?php if (count($taxonomy)){ ?>
 
 	  <div class="taxonomy">
-   	  <?php print $terms ?> 
-	  </div>  
+   	  <?php print $terms ?>
+	  </div>
 	<?php } ?>
-		
+
 
   <?php if ($similarterms) { ?>
     <div class="ding-box-wide similar">
@@ -105,7 +105,7 @@ if ($page == 0) { ?>
 	<?php if ($links){ ?>
     <?php  print $links; ?>
 	<?php } ?>
-  
+
   <div class="meta">
     Sidst opdateret <?php print format_date($node->changed, 'custom', "j F Y") ?>
   </div>
