@@ -694,6 +694,7 @@ ul.menu li.collapsed {
 .ding-box-pane .panel-pane { background: transparent url(../images/ding-box-sprites.png) left bottom no-repeat; margin: 0; }
 .ding-box-pane .pane-title { background: transparent url(../images/ding-box-sprites.png) left top no-repeat; padding-left: 7px; }
 .ding-box-pane .pane-title > * { background: transparent url(../images/ding-box-sprites.png) right top no-repeat; padding-right: 7px; }
+.ding-box-pane .pane-title > p { background-position: right center; }
 .ding-box-pane .pane-content { background: transparent url(../images/ding-box-sprites.png) right bottom no-repeat; margin-left: 7px; padding: 0 7px 7px 0; }
 /* Variants */
 .ding-box-pane-black .pane-title > * { background: transparent url(../images/ding-box-header-sprites.png) right top no-repeat; color: #fff; }
