@@ -1086,7 +1086,9 @@ body.node-type-library .panel-left .view-article-list .feed-icon {
   padding-right: 10px;
   text-align: right;
 }
-
+.pane-library_location ul.links li a.rejseplanen{
+    background-image:url(../images/rejseplanen.png);
+}
 .library-info-inner {
   background-image: url(../images/sprite-box.png);
 } 
