@@ -1102,7 +1102,12 @@ body.node-type-article .content-left {
 body.node-type-article .panel-left {
   width: auto;
 }
-
+body.node-type-article .panel-bottom {
+  width: auto;
+}
+body.node-type-article #comment-form .form-textarea {
+  width: auto;
+}
 
 /**
  * Campaigns
