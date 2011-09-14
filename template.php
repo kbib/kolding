@@ -38,6 +38,12 @@ function kolding_user_login_block($form){
  */
 function kolding_preprocess_page(&$variables){
   $variables['rsslink'] = l(theme('image',path_to_theme('kolding').'/images/rssknap.png'),'<front>', array('html' => true, 'attributes' => array('class' => 'rsslink')));
+
+  // Remove help from wiki page revision page
+  if (arg(2) == 'revisions' &&
+      ($variables['node']->type == 'wiki_page')) {
+    unset($variables['help']);
+  }
 }
 
 /**
