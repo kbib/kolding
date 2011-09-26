@@ -111,6 +111,8 @@ if ($page == 0){ ?>
 	<?php if ($links){ ?>
     <?php  print $links; ?>
 	<?php } ?>
-  <div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=193885020659295&amp;xfbml=1"></script><fb:like href="<?php echo url(request_uri(),array('absolute' => true))  ; ?>" send="false" width="450" show_faces="true" font="verdana"></fb:like>
-  </div>
+
+  <div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#appId=193885020659295&amp;xfbml=1"></script><fb:like href="<?php echo url(request_uri(),array('absolute' => true))  ; ?>" send="false" width="450" show_faces="true" font="verdana"></fb:like>
+
+</div>
 <?php } ?>
