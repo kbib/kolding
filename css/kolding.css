@@ -385,7 +385,6 @@ div.notice.soon {
 }
 .ting-search-carousel {
 	background: url(../images/carousel-back.png) no-repeat;
-	margin-top: 24px;
 }
 
 .ting-search-carousel .search-controller {
@@ -412,7 +411,7 @@ div.notice.soon {
 }
 
 #navigation {
-  height:40px;
+  height:64px;
 }
 #navigation-inner{
   margin-top:3px;
