@@ -884,7 +884,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
   list-style-position: outside !important;
 }
 
-.panel-left ul.menu li, .panel-left ul.menu li a {
+.panel-left ul.menu li a {
   margin-left: 0 !important;
   padding-left:0 !important;
   list-style-position: outside !important;
