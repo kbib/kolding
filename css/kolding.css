@@ -878,7 +878,11 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 #bubbles2 {
   display: none;}
 
+<<<<<<< HEAD
 .panel-left ul.menu li, .panel-left ul.menu li a {
+=======
+.panel-left ul.menu li {
+>>>>>>> c7792a7de5ceb987deaa1b22e2733d5ae2f2657f
   margin-left: 15px !important;
   padding-left:0 !important;
 }
