@@ -882,6 +882,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 .panel-left ul.menu li, .panel-left ul.menu li a {
   margin-left: 15px !important;
   padding-left:0 !important;
+  list-style: none !important;
 }
 
 
