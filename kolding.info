@@ -20,6 +20,9 @@ regions[flap]           = Flap
 
 ;--------------------- styles -----------------------------
 stylesheets[all][] = css/kolding.css
+ie stylesheets[if IE][all][] = css/ie.css
+
+
 
 scripts[] = js/jquery.stickysidebar.js
 scripts[] = js/kolding.js
