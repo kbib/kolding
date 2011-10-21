@@ -872,23 +872,6 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 .similar ul.item-list li {
   margin: 0;
 }
-#alma-user-user-library-settings-form div {
-  float: none; }
-
-#bubbles2 {
-  display: none;}
-
-.panel-left ul.menu li {
-  margin-left: 15px !important;
-  padding-left:0 !important;
-  list-style-position: outside !important;
-}
-
-.panel-left ul.menu li a {
-  margin-left: 0 !important;
-  padding-left:0 !important;
-  list-style-position: outside !important;
-}
 
 
 /**

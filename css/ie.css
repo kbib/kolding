@@ -1,0 +1,32 @@
+/** 
+ * @file
+ * specific quircks to support rendering in IE browsers
+ **/
+
+#ting-search-form .form-text {
+  height: 22px;
+}
+
+.ui-selectmenu-menu {
+  width:153px !important;
+}
+
+#alma-user-user-library-settings-form div {
+  float: none;
+}
+
+#bubbles2 {
+  display: none;
+}
+
+.panel-left ul.menu li {
+  margin-left: 15px !important;
+  padding-left:0 !important;
+  list-style-position: outside !important;
+}
+
+.panel-left ul.menu li a {
+  margin-left: 0 !important;
+  padding-left:0 !important;
+  list-style-position: outside !important;
+}

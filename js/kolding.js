@@ -18,7 +18,7 @@ jQuery(function($) {
   $("#flap").stickySidebar();
 
   $('.select-type-field').selectmenu({
-	  'width' : '179',
+	  'width' : '149',
 	  'style' : 'dropdown'
   });
 
