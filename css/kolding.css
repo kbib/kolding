@@ -1,13 +1,14 @@
 body {
-	font-family:verdana;
+  font-family:verdana;
   font-size:11px;
   background: #f4f4f4;
+  color:#000;
 }
 
 a:link, a:visited, a:active,
 .author a, .author a:link, .author a:visited, .author a:active,
 .meta a, .meta a:link, .meta a:visited, .meta a:active {
-  
+
   color:#003399;
 }
 
@@ -27,13 +28,13 @@ body.logged-in {
   background-color: #f28101 !important;
 }
 #container {
-	/*background: url(../images/page-border-1.png) repeat-y center top;*/
+  /*background: url(../images/page-border-1.png) repeat-y center top;*/
  background: transparent url(../images/topribbon.png) repeat-x center top;
 /*	margin-top: 2px; */
 }
 #pageheader {
   width: 994px;
-	background: transparent;
+  background: transparent;
 }
 #site-name { /* Kolding logo */
   position:absolute;
@@ -46,13 +47,13 @@ body.logged-in {
   margin:0;
   z-index:50;
 }
-#site-name a { /* Kolding title */ 
-	background: url(../images/logotitle.png) no-repeat 0 0;
+#site-name a { /* Kolding title */
+  background: url(../images/logotitle.png) no-repeat 0 0;
   position:absolute;
   left:120px;
   top:44px;
-	height:14px;
-	width:222px;
+  height:14px;
+  width:222px;
 }
 
 /**
@@ -63,10 +64,10 @@ body.logged-in {
  margin-left:18px;
  margin-top:-4px;
  width:220px;
- height:auto; 
+ height:auto;
  color:#000 !important;
 }
-#account h5, 
+#account h5,
 #account a{
  color:#000;
 }
@@ -81,15 +82,15 @@ body.logged-in {
 }
 
 #account h3 {
-	position: absolute;
-	left: -9999em;
+  position: absolute;
+  left: -9999em;
 }
 #account-profile .username a{
-	font-weight: bold;
-	color:#003399 !important;
+  font-weight: bold;
+  color:#003399 !important;
 }
 #account-profile{
-	width:auto !important;
+  width:auto !important;
 }
 #account-profile ul{
   background:transparent none;
@@ -108,24 +109,24 @@ body.logged-in {
 }
 
 .logged-in #account-profile{
-	margin-top:23px;
+  margin-top:23px;
 }
 #account-profile div.logout{
-	position:relative;
+  position:relative;
 }
 #account-profile div.logout a{
-	position: absolute;
-	top:0px;
-	background: url(../images/logud.png);
-	width:54px;
-	right:0;
-	padding:0;
-	height:24px;
-	display: block;
-	text-indent: -999em;
+  position: absolute;
+  top:0px;
+  background: url(../images/logud.png);
+  width:54px;
+  right:0;
+  padding:0;
+  height:24px;
+  display: block;
+  text-indent: -999em;
 }
 #account-profile .user{
-	border-bottom:1px solid #bbbbbb;
+  border-bottom:1px solid #bbbbbb;
 }
 #account-profile .cart {
   height: 35px;
@@ -133,7 +134,7 @@ body.logged-in {
 }
 body #account-profile .cart,
 body #account-profile .cart a {
-  color: #fff;  
+  color: #fff;
 }
 #account-profile .cart div.count{
   margin-top: 3px;
@@ -190,33 +191,33 @@ body #account-profile .cart a {
 
 
 #ting-search-form {
-	background: transparent none; /* url(../images/search.png) no-repeat 0 15px; */
+  background: transparent none; /* url(../images/search.png) no-repeat 0 15px; */
  padding:15px 0 0 100px;
 }
 #ting-search-form div.example, #ting-search-form div.example li a, #ting-search-form div.example p {
-	color:#efefef;
+  color:#efefef;
 }
 
 
 .jcarousel-skin-biblo {
-	background: transparent url(../images/bg-carousel.png) repeat-x scroll center top;
+  background: transparent url(../images/bg-carousel.png) repeat-x scroll center top;
 }
 #pagebody {
 
-	background: transparent;
+  background: transparent;
 }
 #pagebody-inner {
-	background: transparent;
+  background: transparent;
 }
 #path{
-	padding:10px 260px 0 200px;
-	margin:0;
+  padding:10px 260px 0 200px;
+  margin:0;
 }
 #pagefooter {
-	background: transparent url(../images/footer-ribbon.png) repeat-x center top;
+  background: transparent url(../images/footer-ribbon.png) repeat-x center top;
   color:#000;
   font-size:11px;
-  
+
 }
 #bubbles {
   position:relative;
@@ -278,24 +279,24 @@ body #account-profile .cart a {
 }
 
 .panel-threecol-33-34-33-stacked .panel-top {
-	position: relative;
+  position: relative;
 }
 div.notice.soon {
-	position: absolute;
-	left: 165px;
-	top: -2px;
-	width: 223px;
-	height: 244px;
-	background: transparent url(../images/notice-soon.png) left top no-repeat;
-	z-index: 100;
+  position: absolute;
+  left: 165px;
+  top: -2px;
+  width: 223px;
+  height: 244px;
+  background: transparent url(../images/notice-soon.png) left top no-repeat;
+  z-index: 100;
 }
-#user-login-form .form-item-textfield { margin-bottom: 3px;} 
+#user-login-form .form-item-textfield { margin-bottom: 3px;}
 
 #page {
-	background: url(../images/rings.png) no-repeat center top;
-	overflow: hidden;
-	width: auto;
-	margin: 0;
+  background: url(../images/rings.png) no-repeat center top;
+  overflow: hidden;
+  width: auto;
+  margin: 0;
 }
 
 #pageheader-inner{
@@ -314,7 +315,7 @@ div.notice.soon {
   -webkit-border-radius:5px;
   width:684px;
   height:70px;
-	margin:0;
+  margin:0;
   margin-top:20px;
 }
 #search > form > div {
@@ -322,7 +323,7 @@ div.notice.soon {
 }
 
 #top {
-	height:101px;
+  height:101px;
   padding-top:20px;
   /*padding-top:64px;*/
 }
@@ -352,39 +353,39 @@ div.notice.soon {
   top:9px;
 }
 #pageheader {
-	margin: 0;
-	position: relative;
+  margin: 0;
+  position: relative;
 }
 
 #ting-search-form .form-text {
-	border: 0 solid;
-	float:none;
-	height: 24px;
-	margin: 0;
-	padding: 0px 0 0 25px;
-	width: 278px;
-	background: transparent;
+  border: 0 solid;
+  float:none;
+  height: 24px;
+  margin: 0;
+  padding: 0px 0 0 25px;
+  width: 278px;
+  background: transparent;
 }
 #edit-keys-wrapper {
-	float: left;
-	margin-bottom: 0;
-	margin-top: 13px;
-	width: 278px;
-	background: #fff; /*red url(../images/search-back.png) no-repeat;*/
-	padding-top: 2px;
-	padding-left: 2px;
-	margin-right: 10px;
+  float: left;
+  margin-bottom: 0;
+  margin-top: 13px;
+  width: 278px;
+  background: #fff; /*red url(../images/search-back.png) no-repeat;*/
+  padding-top: 2px;
+  padding-left: 2px;
+  margin-right: 10px;
   border:1px solid #cecece;
-	
+
 }
 #ting-search-form .form-image-button {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .ting-search-carousel .search-results {
-	background: #ebebeb;
+  background: #ebebeb;
 }
 .ting-search-carousel {
-	background: url(../images/carousel-back.png) no-repeat;
+  background: url(../images/carousel-back.png) no-repeat;
 }
 
 .ting-search-carousel .search-controller {
@@ -396,7 +397,7 @@ div.notice.soon {
 }
 
 .ting-search-carousel .search-controller li {
-	margin-top: 0;
+  margin-top: 0;
   background:transparent;
   border:0;
   text-transform:uppercase;
@@ -420,10 +421,10 @@ div.notice.soon {
 #navigation li{
   height:36px;
   padding:0;
-  
+
 }
 #navigation li.active-trail {
-	background:url(../images/menuactarrow.png) no-repeat center bottom; 
+  background:url(../images/menuactarrow.png) no-repeat center bottom;
 }
 #navigation a{
   color:#fff;
@@ -434,13 +435,13 @@ div.notice.soon {
 }
 
 #testsite {
-	background: url(../images/test-site.png) no-repeat;
-	height: 77px;
-	width: 157px;
-	position: absolute;
-	left: 50%;
-	margin-left: -78px;
-	top: -54px;
+  background: url(../images/test-site.png) no-repeat;
+  height: 77px;
+  width: 157px;
+  position: absolute;
+  left: 50%;
+  margin-left: -78px;
+  top: -54px;
 }
 
 .panel-threecol-33-34-33-stacked .panel-left {
@@ -477,7 +478,7 @@ body.no-sidebars #content {
   left:-254px;
 }
 .ting-search-carousel .search-results a,
-.ting-search-carousel .search-results .creator, 
+.ting-search-carousel .search-results .creator,
 .ting-search-carousel .search-results .title {
   color: #000;
 }
@@ -512,27 +513,27 @@ body.no-sidebars #content {
   margin-left:6px;
   padding:4px 0 0 4px;
   color:#646464 !important;
-  
+
 }
 .ui-selectmenu-open{
-	border:1px solid #cecece;
+  border:1px solid #cecece;
 }
 .ui-selectmenu-menu li{
-	padding:0 !important;
+  padding:0 !important;
 }
 .ui-selectmenu-menu li a{
-	display:block;
-	padding:3px !important;
-	height:auto !important;
+  display:block;
+  padding:3px !important;
+  height:auto !important;
   background:#fff;
   border:0;
 }
 .ui-selectmenu-menu li a:hover{
-	background:#cecece;
+  background:#cecece;
 }
 .ui-selectmenu:hover {
   text-decoration:none !important;
-  
+
 }
 #ting-search-form .form-image-button {
   margin:0 0 0 6px;
@@ -563,11 +564,11 @@ body.no-sidebars #content {
 .ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; font-weight: bold; }
 .ui-selectmenu-menu .ui-selectmenu-group ul { margin: 0; padding: 0; }
 
-/** 
+/**
  * genereral cleanup
- * ------------------------- 
+ * -------------------------
  **/
- 
+
  .panel-top{
    background: transparent none;
  }
@@ -576,7 +577,7 @@ body.no-sidebars #content {
  }
 .pane-kolding_article_list-panel_pane_3 .field-list-image-fid{
   float:left;
-  
+
   margin-left:0 !important;
 }
 .pane-kolding_article_list-panel_pane_3 .tid a{
@@ -613,11 +614,11 @@ body.no-sidebars #content {
 }
 .node-type-event .panel-twocol-left-stacked .content-left {
   width: 660px;
-} 
+}
 
 .panel-middle .pane-event_list-panel_pane_4{
   margin-right:20px;
-}  
+}
 #event-list h3 {
   background:#000;
   color:#fff;
@@ -635,7 +636,7 @@ ul.pager li a {
 .panel-twocol-left-stacked{
   padding-top:30px;
 }
-.panel-twocol-left-stacked .content-left, 
+.panel-twocol-left-stacked .content-left,
 body.node-type-page .panel-threecol-left-stacked-right .content-left {
   width:675px;
 }
@@ -658,7 +659,7 @@ ul.menu li.collapsed {
 .pane-library_portal ul.menu li.collapsed a{
   display:block;
   padding:20px 0 5px 0;
-  color:#000;  
+  color:#000;
   border-bottom:1px solid #f1eeee;
   font-size:11px;
   background: transparent url(../images/left-menu-arrow.png) no-repeat right 24px;
@@ -689,7 +690,7 @@ ul.menu li.collapsed {
 .ding-box-pane .pane-content h3 { padding: 0; }
 
 .ding-box-pane .pane-title > * { display: block; height: auto; padding: 7px 0 0 12px; margin: 0; color: #333; font-size: 11px; font-weight: bold; line-height: 20px; text-transform: none; }
-/* Sliding doors GFX */  
+/* Sliding doors GFX */
 .ding-box-pane .panel-pane { background: transparent url(../images/ding-box-sprites.png) left bottom no-repeat; margin: 0; }
 .ding-box-pane .pane-title { background: transparent url(../images/ding-box-sprites.png) left top no-repeat; padding-left: 7px; }
 .ding-box-pane .pane-title > * { background: transparent url(../images/ding-box-sprites.png) right top no-repeat; padding-right: 7px; }
@@ -749,7 +750,7 @@ ul.primary li.active a { color: #F28101; }
 .page-arrangementer .pane-categories .item-list li a{
   display:block;
   padding:20px 0 5px 0;
-  color:#000;  
+  color:#000;
   border-bottom:1px solid #f1eeee;
   font-size:11px;
   background: transparent url(../images/left-menu-arrow.png) no-repeat right 24px;
@@ -768,21 +769,21 @@ ul.primary li.active a { color: #F28101; }
 }
 body.ding-arrangementer .panel-threecol-left-stacked-right .panel-left {
   width:190px;
-} 
+}
 body.page-arrangementer .panel-middle{
   width:500px;
 }
-.tab-navigation, .page-arrangementer .panel-left ul, 
-.ding-arrangementer .panel-left ul, 
+.tab-navigation, .page-arrangementer .panel-left ul,
+.ding-arrangementer .panel-left ul,
 .ding-ting-collection .panel-left ul .tab-navigation ul {
   width:180px !important;
   padding-right:10px;
 }
 
-.tab-navigation ul.item-list li, 
-.page-arrangementer .panel-left ul li, 
-.ding-arrangementer .panel-left ul li, 
-.ding-ting-collection .panel-left ul li, 
+.tab-navigation ul.item-list li,
+.page-arrangementer .panel-left ul li,
+.ding-arrangementer .panel-left ul li,
+.ding-ting-collection .panel-left ul li,
 .tab-navigation ul li {
   width:auto;
 }
@@ -846,7 +847,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 }
 
 /**
- * Content - primarily from WYSIWYGs 
+ * Content - primarily from WYSIWYGs
  */
 
 .pane-content h3,
@@ -858,7 +859,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
   font-size: 12px;
   padding-top: 18px;
   /* Verdana 12, bold, padding/margin top: 18px, Tekstfarve: #333333 */
- 
+
 }
 .pane-content h4 {
   font-size: 11px;
@@ -894,7 +895,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 }
 .panels-flexible-region-wiki_frontpage-emneord .inside,
 .panels-flexible-region-wiki_frontpage-center .inside {
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 
 .panels-flexible-column-wiki_frontpage-2{
@@ -916,7 +917,7 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 }
 
 .pane-wiki_list-panel_pane_3 h3 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 .pane-wiki_list-panel_pane_3 li {
   clear: both;
@@ -924,10 +925,10 @@ body.page-arrangementer .panel-middle .view-event-list ul.pager li, #pager div.n
 .pane-wiki_list-panel_pane_3 a {
   color: #666;
 }
-.pane-wiki_list-panel_pane_3 a.imagecache { 
+.pane-wiki_list-panel_pane_3 a.imagecache {
   display: block;
   float: left;
-  margin: 0 10px 10px 0;  
+  margin: 0 10px 10px 0;
 }
 .pane-wiki_list-panel_pane_3 .type {
   display: inline;
@@ -960,7 +961,7 @@ body.node-type-wiki-page .pane-field_wiki_images { margin-right: 20px; }
 
 #ding-wiki-page-form .form-ting-reference .form-item-textarea {
   display: none; /* We do not show form elements for entering descriptions of ting references in the public facing theme */
-} 
+}
 
 .born{
   position:absolute;
@@ -1004,17 +1005,17 @@ body.page-arrangementer .panel-middle, body.ding-arrangementer .panel-middle, .t
   width:auto;
 }
 
-body.ding-ting-object .ding-box-wide, 
+body.ding-ting-object .ding-box-wide,
 body.ding-ting-collection .ding-box-wide {
   width: auto;
 }
 
-body.ding-ting-object .ting-availability, 
+body.ding-ting-object .ting-availability,
 body.ding-ting-collection .ting-availability {
   position: relative;
 }
 
-body.ding-ting-object .pane-recommendation_list, 
+body.ding-ting-object .pane-recommendation_list,
 body.ding-ting-collection .pane-recommendation_list {
   margin: 0 35px 0 221px; /* Make recommendations appear in same colum as main content */
 }
@@ -1026,11 +1027,11 @@ body.ding-ting-collection .pane-recommendation_list {
   line-height: 20px;
 }
 .pane-recommendation_list ul.ting-recommendation li.odd {
-  background: #F3F5F5;  
+  background: #F3F5F5;
 }
 
-/** 
- * Login page 
+/**
+ * Login page
  * This page uses the default layout so we fake the columns
  */
 body.user-login #content-main {
@@ -1041,7 +1042,7 @@ body.user-login #content-main {
  * User edit page
  * This page uses the default layout so we fake columns and spacing
  */
-body.page-user .tabs { 
+body.page-user .tabs {
   margin-left: 15px;
 }
 body.page-user .content-left {
@@ -1066,7 +1067,7 @@ body.page-biblioteker .panel-twocol-left-stacked .content-left {
   margin-left: 15px;
 }
 body.page-biblioteker .panel-left .view ul li {
-  padding-left: 0; 
+  padding-left: 0;
 }
 .panel-left .view-library-list {
   width: auto;
@@ -1088,7 +1089,7 @@ body.node-type-library .content-left {
   width: 660px;
   margin-left: 15px;
   overflow: hidden;
-} 
+}
 body.node-type-library .panel-left {
   overflow: hidden;
   width: 430px;
@@ -1109,7 +1110,7 @@ body.node-type-library .panel-left .view-article-list .feed-icon {
 }
 .library-info-inner {
   background-image: url(../images/sprite-box.png);
-} 
+}
 
 /**
  * Articles
@@ -1134,14 +1135,14 @@ body.node-type-article #comment-form .form-textarea {
  */
 
 .campaign-box{
-	background: transparent url(../images/ding-box-sprites.png) no-repeat bottom left;
+  background: transparent url(../images/ding-box-sprites.png) no-repeat bottom left;
 }
 .campaign-box .campaign-inner{
-	margin-left:7px;
-	padding:5px 12px 5px 5px;
-	
-	background: transparent url(../images/ding-box-sprites.png) no-repeat bottom right;
-	width:auto;
+  margin-left:7px;
+  padding:5px 12px 5px 5px;
+
+  background: transparent url(../images/ding-box-sprites.png) no-repeat bottom right;
+  width:auto;
 }
 .campaign-box .campaign-type-wysiwyg-title a{
   display:inline;
@@ -1154,15 +1155,15 @@ body.node-type-article #comment-form .form-textarea {
 
 
 .campaign-box .pane-title{
-	background: transparent url(../images/ding-box-header-sprites.png) no-repeat top left;
+  background: transparent url(../images/ding-box-header-sprites.png) no-repeat top left;
 }
 .campaign-box .pane-title h3{
-	padding:7px 12px 0 5px;
-	margin-left:7px;
-	color:#fff;
-	font-size:11px;
-	font-weight:bold;
-	background: transparent url(../images/ding-box-header-sprites.png) no-repeat top right;
+  padding:7px 12px 0 5px;
+  margin-left:7px;
+  color:#fff;
+  font-size:11px;
+  font-weight:bold;
+  background: transparent url(../images/ding-box-header-sprites.png) no-repeat top right;
 }
 
 /**
@@ -1202,7 +1203,7 @@ body.node-type-article #comment-form .form-textarea {
 #flap .view-library-list .title a{
   font-weight:bold;
   color:#000;
-} 
+}
 
 
 /**
@@ -1216,7 +1217,7 @@ body.node-type-article #comment-form .form-textarea {
 }
 .kolding-wide #pagefooter-inner {
   width:1280px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 .kolding-wide #pagefooter-inner {
    margin:0 auto;
