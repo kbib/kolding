@@ -197,6 +197,9 @@ body #account-profile .cart a {
 #ting-search-form div.example, #ting-search-form div.example li a, #ting-search-form div.example p {
   color:#efefef;
 }
+#ting-facet-browser li li {
+  color: #039;
+}
 
 
 .jcarousel-skin-biblo {
