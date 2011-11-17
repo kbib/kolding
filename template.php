@@ -8,11 +8,11 @@ function kolding_ting_search_form($form){
   jquery_ui_theme_load();
   drupal_add_js(drupal_get_path('theme', 'kolding').'/js/selectmenu.js', 'module', 'footer', TRUE);
 
-	$form['submit']['#type'] 	= "image_button" ;
-	$form['submit']['#src'] 	= drupal_get_path('theme','kolding')."/images/search-btn.png";
-	$form['submit']['#attributes']['class'] = "";
+  $form['submit']['#type'] 	= "image_button" ;
+  $form['submit']['#src'] 	= drupal_get_path('theme','kolding')."/images/search-btn.png";
+  $form['submit']['#attributes']['class'] = "";
 
-	return drupal_render($form);
+  return drupal_render($form);
 }
 
 /**
@@ -156,15 +156,15 @@ function kolding_ting_availability_box($object) {
   return '<div class="ding-box-pane">' .
             '<div class="panel-pane ding-box-wide ting-availability">' .
               '<div class="pane-title">' .
-      					'<h3>' .
+                '<h3>' .
                   t('%title is available at the following libraries:', array('%title' => check_plain($object->title))) .
                 '</h3>' .
               '</div>' .
               '<div class="pane-content">' .
-              	'<ul class="library-list">' .
+                '<ul class="library-list">' .
                   '<li class="ting-status waiting even">' . t('waiting for data') .'</li>' .
                 '</ul>' .
               '</div>' .
-         		'</div>' .
+             '</div>' .
          '</div>';
 }

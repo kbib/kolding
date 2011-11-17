@@ -15,11 +15,14 @@ jQuery(function($) {
     });
   }
 
+
+  $("table.sticky-header").remove();
+
   $("#flap").stickySidebar();
 
   $('.select-type-field').selectmenu({
-	  'width' : '149',
-	  'style' : 'dropdown'
+    'width' : '149',
+    'style' : 'dropdown'
   });
 
   Drupal.kolding.pageWidth();
@@ -33,7 +36,7 @@ Drupal.kolding.pageWidth = function() {
   if (width > 1280) {
     $('body').removeClass('kolding-narrow').addClass('kolding-wide');
   } else if (width <= 1024) {
-    $('body').removeClass('kolding-wide').addClass('kolding-narrow');    
+    $('body').removeClass('kolding-wide').addClass('kolding-narrow');
   } else {
     $('body').removeClass('kolding-narrow').removeClass('kolding-wide');
   }
