@@ -300,6 +300,7 @@ div.notice.soon {
   overflow: hidden;
   width: auto;
   margin: 0;
+  min-width: 1024px;
 }
 
 #pageheader-inner{
