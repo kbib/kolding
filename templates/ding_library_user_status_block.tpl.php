@@ -1,6 +1,4 @@
 <?php
-// $Id$
-
 /**
  * @file alma_user_status_block.tpl.php
  * Template for the user status block.
@@ -15,11 +13,11 @@ else{
 
 if( $user_status['reservation_count'] >= 1){
   $reservation_status = "ok";
-  $user = l($display_name, $profile_link, array('attributes' => array('class' =>'username')));
+  $user_name = l($display_name, $profile_link, array('attributes' => array('class' =>'username')));
 }
 else{
   $reservation_status = "default";
-  $user = l($display_name, 'user/'. $user->uid . '/status', array('html' => TRUE, 'fragment' => 'reservation','attributes' => array('class' =>'username')));
+  $user_name = l($display_name, 'user/'. $user->uid . '/status', array('html' => TRUE, 'fragment' => 'reservation','attributes' => array('class' =>'username')));
 }
 ?>
 <div id="account-profile" class="clearfix">
@@ -31,7 +29,7 @@ else{
 
     <h5><?php print t('Welcome'); ?></h5>
     <div class="username">
-      <?php print $user; ?>
+      <?php print $user_name; ?>
     </div>
 
   </div>
