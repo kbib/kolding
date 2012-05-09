@@ -18,7 +18,6 @@ jQuery(function($) {
 
   $("table.sticky-header").remove();
 
-  $("#flap").stickySidebar();
 
   $('.select-type-field').selectmenu({
     'width' : '149',

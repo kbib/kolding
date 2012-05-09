@@ -24,5 +24,4 @@ ie stylesheets[if IE][all][] = css/ie.css
 
 
 
-scripts[] = js/jquery.stickysidebar.js
 scripts[] = js/kolding.js
