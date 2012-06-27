@@ -1230,3 +1230,16 @@ body.node-type-article #comment-form .form-textarea {
 .kolding-narrow #flapContainer {
   display: none;
 }
+
+/* Change color of place2book button. */
+.node .content .place2book.order {
+  background-position: right 0px;
+}
+
+.node .content .place2book a,
+.node .content .place2book a:link,
+.node .content .place2book a:visited,
+.node .content .place2book a:hover,
+.node .content .place2book a:active {
+  background-position: left -60px;
+}
