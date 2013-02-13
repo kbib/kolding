@@ -1243,3 +1243,11 @@ body.node-type-article #comment-form .form-textarea {
 .node .content .place2book a:active {
   background-position: left -60px;
 }
+.ting-item .title {
+  float: left;
+}
+
+/* Sofie Fredborg ticked id: XQX-293-57464 */
+.pane-collection_view .item-list {
+  font-size:17px;
+}

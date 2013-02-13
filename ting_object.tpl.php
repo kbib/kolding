@@ -51,13 +51,16 @@
       <?php } ?>
 
       <div class='creator'>
-        <span class='byline'><?php echo ucfirst(t('by')); ?></span>
-        <?php print $creators; ?>
-        <?php if ($date) { ?>
-          <span class='date'>(<?php print $date; ?>)</span>
+        <?php if (sizeof($ting_creators_links) == 1) { ?>
+          <span class='byline'><?php echo ucfirst(t('by')); ?></span>
+          <?php print $ting_creators_links[0]; ?>
+        <?php } ?>
+        <?php if ($ting_publication_date) { ?>
+          <span class='date'>(<?php print $ting_publication_date; ?>)</span>
         <?php } ?>
       </div>
-      <p><?php print $abstract; ?></p>
+
+     <p><?php print $abstract; ?></p>
 
       <?php if (isset($additional_main_content)) { print drupal_render($additional_main_content); } ?>
     </div>
