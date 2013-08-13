@@ -167,7 +167,7 @@ body #account-profile .cart a {
   width:160px;
 }
 #user-login-form .form-image-button {
-  margin: 0 0 0 6px;
+  margin: 0 0 3px 6px;
 }
 #user-login-form {
   background: transparent none; /*url(../images/logind.png) no-repeat scroll 0 0;*/
